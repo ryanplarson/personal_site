@@ -1,3 +1,6 @@
 ---
 title: "Home"
 ---
+
+
+<img src="profile_pic.jpg" style="width:50%">
