@@ -2,3 +2,62 @@
 title: "Research"
 ---
 
+## The Iatrogenic Effects of Punishment
+
+My dissertation examines the link between punishment and crime at three 
+different levels of analysis, specifically investigating how punishment can 
+exacerbate crime and criminogenic contexts, both directly and indirectly through 
+its impact on existing stratification and collateral consequences. 
+The quantitative analyses examine how punishment’s varied forms, intensities, 
+and contexts are implicated in the (re)production of class and racial inequalities, 
+the structuring of American neighborhoods and contexts, and the corrosion of 
+general social health (e.g., employment, voting); all of which are implicated 
+the genesis of crime. 
+
+*The Causal Packaging Effects of Punishment*
+
+The first empirical chapter uses comprehensive court data for the state of 
+Minnesota to investigate the causal impacts of  “punishment packaging”  - the 
+dependent combinations of different forms of punishment - on recidivism. 
+The paper examines the impacts of multiple different forms (e.g., confinement, 
+probation, monetary sanctions) and intensities of punishment simultaneously on 
+recidivism. The analysis leverages an instrumental variable design that exploits
+the random, exogenous assignment of judges within Minnesota Judicial Districts 
+at the felony-level to estimate the causal effects of "punishment packaging" 
+on recidivism. Further,  the analysis estimates to what extent these forms of 
+punishment conditioned on not only one another, but also upon the characteristics
+of defendants as well as the greater social context in which sentencing takes
+place.
+
+*Punishment and Neighborhood Effects*
+
+The second empirical paper sets neighborhood-level punishment into the 
+collective efficacy/social disorganization criminological theories and asks how 
+punishment operates within this system of crime etiology. The analysis uses  
+panel data of neighborhoods in Minneapolis, MN, to examine the ways that varied
+punishment loads (e.g., monetary sanctions per Capita) may (re)structure 
+neighborhoods, and both directly and indirectly pattern crime rates. 
+
+*Criminal Records and Social Well-Being*
+
+The third empirical chapter uses novel estimates of the population of those with 
+felony-level criminal records to examine how state-level record production has 
+impacted social-well being and crime rates. Specifically, the paper looks at how
+unemployment and voting turnout rates may be responsive to record production, and 
+how these indicators of social well-being moderate the relationship between
+the population of felony criminal record holders and state-level crime. Finally, 
+the paper leverages staggered timing in both 'ban-the-box' and felony 
+reenfranchisement policy in a generalized difference-in-difference design to 
+investigate how state policy causally moderates the impact of criminal records.
+
+## Multistate Study of Monetary Sanctions
+
+Minnesota is one of eight states included in the Multi-State Study of Monetary 
+Sanctions, led by principal investigator Alexes Harris (University of Washington),
+investigating systems of monetary sanctions in the United States.Using
+automated court data provided by the Minnesota State Court Administrator's 
+Office, alongside interviews and ethnographic observations,  I am collaboratively
+working on the following papers:
+
+*Native Americans and Monetary Sanctions*
+

@@ -2,4 +2,4 @@
 title: "CV"
 ---
 
-<a href="CV/larson_cv.pdf#" class="download" title="Download CV as PDF">Download CV</a>
+<a href="https://ryanplarson.github.io/personal_site/CV/larson_cv.pdff#" class="download" title="Download CV as PDF">Download CV</a>
