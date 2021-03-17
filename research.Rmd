@@ -11,7 +11,7 @@ its impact on existing stratification and collateral consequences.
 The quantitative analyses examine how punishment’s varied forms, intensities, 
 and contexts are implicated in the (re)production of class and racial inequalities, 
 the structuring of American neighborhoods and contexts, and the corrosion of 
-general social health (e.g., employment, voting); all of which are implicated 
+general social health; all of which are implicated 
 the genesis of crime. 
 
 *The Causal Packaging Effects of Punishment*
@@ -28,6 +28,10 @@ on recidivism. Further,  the analysis estimates to what extent these forms of
 punishment conditioned on not only one another, but also upon the characteristics
 of defendants as well as the greater social context in which sentencing takes
 place.
+
+<center>
+![](images/iv_dag.png){width=50%}
+</center>
 
 *Punishment and Neighborhood Effects*
 
@@ -60,15 +64,55 @@ Office, alongside interviews and ethnographic observations,  I am collaborativel
 examining the role of race in the sentencing of LFOs and other punishments, as 
 well as the impact of LFO amounts on recidivism. 
 
+<center>
+![](images/race_ff.png){width=90%}
+</center>
+
+## Punishment and Violence
+
+Collaborative work has estimated the relationships between county-level punishment
+and violent victimization as measured by hospital records. The first paper is forthcoming
+in *Violent Epidemiology*. Current scholarship is looking at firearm victimization 
+across Minneapolis, MN in the wake of events of police brutality and political protest. 
+
+<center>
+![](images/dv_map.png){width=90%}
+</center>
+
 ## Dual Debtors Project
 
+The Dual Debtors Project is mixed-method collaborative research that examines the
+nexus of criminal justice debt and child support debt. My current work investigates
+whether child support arrears are responsive to criminal justice debt, and the
+criminogenic interactive impact of these forms of debt. 
+
+## Felony Disenfranchisement Estimates
+
+Collaboratively with my advisor Chris Uggen and Sarah Shannon, we have compiled
+estimates of the population disenfranchised due to a felony record. We estimated 
+that 6.1 million were legally disenfranchised due to a felony criminal record as 
+of election day 2016, and 5.2 million on election day 2020. Our estimates were 
+published by the [Sentencing Project](sentencing project.org). 
+
+* [Locked Out 2020:Estimates of People Denied Voting Rights Due to a Felony Conviction](https://www.sentencingproject.org/wp-content/uploads/2020/10/Locked-Out-2020.pdf)
+
+* [6 Million Lost Voters: State-Level Estimates of Felony Disenfranchisement, 2016](https://www.sentencingproject.org/wp-content/uploads/2016/10/6-Million-Lost-Voters.pdf)
+
+<center>
+![](images/fd_2020.png){width=80%}
+</center>
 
 
 ## American Mosaic Project
 
 I have been a research assistant and collaborator on the 
 [American Mosaic Project](https://cla.umn.edu/sociology/graduate/collaboration-opportunities/american-mosaic-project-amp),  a survey of the social boundaries of American political and religious life. 
-Specifically, I have collaboratively published work on racial colorblindness as
-an identity, and am currently working examining colorblind
-ideology and its impacts on race-specific policy. 
+Specifically, I have collaboratively published work on [racial colorblindness as
+an identity](https://journals.sagepub.com/doi/abs/10.1177/0731121417719694?ai=1gvoi&mi=3ricys&af=R), 
+and am currently working examining colorblind
+ideology and its impacts on race-specific policy (paper currently under review).
+
+<center>
+![](images/figure_1_2018_revised.png){width=60%}
+</center>
 

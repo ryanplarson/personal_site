@@ -2,3 +2,28 @@
 title: "Teaching"
 ---
 
+## Instructorships
+
+* Basic Social Statistics (UMN SOC 3811)
+  + Fall 2021
+
+* Sociology of Neighborhoods (UMN SOC 3081) - Temporary
+  + Spring 2017 
+
+## Teaching Assistantships
+
+* Advanced Social Statistics (UMN SOC 8811)
+  + Spring 2016, 2017, and 2018
+  
+* Intermediate Social Statistics (UMN SOC 5811)
+  + Fall 2015
+  
+* Introduction to the Criminal Justice System (UMN SOC 3101)
+  + Spring 2015
+  
+* Basic Social Statistics (UMN SOC 3811)
+  + Fall 2014
+  
+## Planned Courses
+  
+ * Quantitative Methodology and Statistics ([syllabus](syllabi/larson_syllabus_draft.pdf))

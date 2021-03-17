@@ -2,4 +2,19 @@
 title: "About"
 ---
 
-I am a Ph.D. Candidate in Sociology in the University of Minnesota.
+I am a Ph.D. Candidate in Sociology in the University of Minnesota. Broadly, I study 
+crime, punishment, and quantitative methodology and statistics. My dissertation
+investigates the iatrogenic effects of punishment on crime and other aspects 
+of social life, using unique causal identification strategies. To read more 
+about my research projects [click here](). To download my Curriculum Vitae [click here](). 
+
+Prior to graduate school, I received my BA in Sociology and Psychology, 
+*Summa cum Laude*, from Concordia College in 2014, and played saxophone in 
+[The Concordia Band](https://www.concordiacollege.edu/student-life/music-ensembles/bands/the-concordia-band/) 
+and [The Concordia College Jazz Ensemble I](https://www.concordiacollege.edu/student-life/music-ensembles/jazz-ensembles/). 
+
+I have a dog, meet Pig!
+
+![](images/pig.jpg)
+
+

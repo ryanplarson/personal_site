@@ -3,4 +3,12 @@ title: "Home"
 ---
 
 
-<img src="profile_pic.jpg" style="width:50%">
+![](images/profilepic.jpg)
+
+
+Ryan P Larson is a Ph.D. Candidate in Sociology at the University of Minnesota.
+His research interests include crime and punishment, quantitative methodology and
+statistics, causal inference, sport, and media. 
+
+
+

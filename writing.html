@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Writing</title>
+
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ryan P Larson</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fas fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">About Me</a>
+</li>
+<li>
+  <a href="writing.html">Writing</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:lars3965@umn.edu">
+    <span class="fas fa-envelope-o"></span>
+     
+    Contact me
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/ryanplarson">
+    <span class="fas fa-twitter"></span>
+     
+    Twitter
+  </a>
+</li>
+<li>
+  <a href="https://github.com/ryanplarson">
+    <span class="fas fa-github"></span>
+     
+    GitHub
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Writing</h1>
+
+</div>
+
+
+<div id="research" class="section level2">
+<h2>Research</h2>
+<div id="papers-under-review" class="section level3">
+<h3>Papers Under Review</h3>
+<ul>
+<li><p>Veronica Horowitz, Ryan Larson, Victoria Piehowski, Allison Nobles, and Josh Page. “No Contact: The Institutionalization of Criminal Domestic Violence Protector Orders.” Under review at <em>Law &amp; Society</em>.</p></li>
+<li><p>Amber Hamilton, Doug Hartmann, and Ryan P. Larson. “Measurements, Correlates, and Consequences of Colorblind Racism.” Under review at <em>DuBois Review</em>.</p></li>
+<li><p>Rob Stewart, Bieanna Watters, Veronica Horowitz, Ryan Larson, and Christopher Uggen. “Native Americans and Monetary Sanctions. Invited article to Russell Sage Foundation volume.</p></li>
+</ul>
+</div>
+<div id="peer-reviewed-articles" class="section level3">
+<h3>Peer-Reviewed Articles</h3>
+<ul>
+<li><p>Jeanie Santaularia, Ryan P. Larson, Christopher Uggen. 2020. “Criminal Punishment, Child Abuse, and Violent Injury in Minnesota.” Forthcoming in <em>Injury Epidemiology</em>.</p></li>
+<li><p>Stewart, Evan, Penny Edgell, Sarah-Catherine Billups, and Ryan Larson. 2019. <a href="pubs/stewart_etal_19.pdf">“The Stakes of Symbolic Boundaries.”</a> <em>The Sociological Quarterly</em>, 61(2): 309-333.</p></li>
+<li><p>Ann Meier, Ben Hartmann, and Ryan Larson. 2018. <a href="pubs/meier_etal_18.pdf">“A Quarter Century of Youth Activity Participation: Inequalities by Race, Class, Gender and Age?”</a>. <em>Journal of Youth and Adolescence</em> 47(6): 1299-1316.</p></li>
+<li><p>Larson, Ryan P. and Andrew Lindner. 2018. <a href="pubs/larson_lindner_18.pdf">“Professionalization Through Atrrition?: An Event History Analysis of Mortalities in Citizen Journalism.”</a> <em>Information, Communication, and Society</em> 21(5): 746-760.</p></li>
+<li><p>Lindner, Andrew and Ryan P. Larson. 2017. <a href="pubs/lindner_larson_17.pdf">“The Expansion and Contraction of the Journalistic Field and American Online Citizen Journalism, 2000-2012”</a>. <em>Poetics</em> 64: 40-52.</p></li>
+<li><p>Hartmann, Doug, Paul Croll, Ryan Larson, Joseph Gerteis, and Alex Manning. 2017. <a href="pubs/hartmann_etal_17.pdf">“Colorblindness as Identity: Key Determinants, Relations to Ideology, and Implications for Attitudes about Race and Policy”</a>. <em>Sociological Perspectives</em> 60(5): 866-888.</p></li>
+<li><p>Hawkins, Daniel, Andrew Lindner, Ryan Larson, and Johnathan Santos. 2015. <a href="pubs/hawkins_etal_2015.pdf">“Overrating Bruins, Underrating Badgers: Media, Prestige, and College Basketball Rankings.”</a> <em>Journal of Sports Management and Commercialization</em> 6(3): 11-26.</p></li>
+</ul>
+</div>
+</div>
+<div id="technical-reports" class="section level2">
+<h2>Technical Reports</h2>
+<ul>
+<li><p>Uggen, Christopher, Ryan Larson, Sarah Shannon, and Arleth Pulido-Nava. 2020. <a href="https://www.sentencingproject.org/wp-content/uploads/2020/10/Locked-Out-2020.pdf">“Locked Out 2020:Estimates of People Denied Voting Rights Due to a Felony Conviction”</a> Washington, D.C.: The Sentencing Project.</p></li>
+<li><p>Uggen, Christopher, Ryan Larson, and Sarah Shannon. 2016. <a href="https://www.sentencingproject.org/wp-content/uploads/2016/10/6-Million-Lost-Voters.pdf">“6 Million Lost Voters: State-Level Estimates of Felony Disenfranchisement, 2016”</a> Washington, D.C.: The Sentencing Project.</p></li>
+</ul>
+</div>
+<div id="book-chapters" class="section level2">
+<h2>Book Chapters</h2>
+<ul>
+<li><p>Larson, Ryan P.. 2019. <a href="pubs/larson_19.pdf">“Felon Disenfranchisement.”</a> <em>Voting and Political Representation in America: Issues and Trends</em>, edited by Mark P. Jones. Santa Barbara, CA: ABC-CLIO.</p></li>
+<li><p>Andrew Lindner and Ryan P. Larson. 2018. <a href="pubs/lindner_larson_18.pdf">“Regression Analysis.”</a> <em>Encyclopedia of Sociology</em>, edited by George Ritzer. Oxford: Wiley-Blackwell.</p></li>
+<li><p>Larson, Ryan P. and Chris Uggen. 2017. <a href="pubs/uggen_larson_17.pdf">“Felon Disenfranchisement.”</a> <em>Encyclopedia of Corrections</em>, edited by Kent R. Kerley. Oxford: Wiley-Blackwell.</p></li>
+</ul>
+</div>
+<div id="articles" class="section level2">
+<h2>Articles</h2>
+<ul>
+<li><p>Uggen, Christopher and Ryan P. Larson. 2017. <a href="pubs/uggen_larson_contexts_17.pdf">“Crime Trends in the GSS.”</a> <em>Contexts</em> Fall 2017.</p></li>
+<li><p>Lindner, Andrew and Ryan P. Larson. 2016. <a href="pubs/lindner_larson_contexts_16.pdf">“The Year English Soccer Wasn’t For Sale.”</a> Contexts Fall 2016.</p></li>
+<li><p>A collection of contributions to <a href="https://thesocietypages.org/"><em>The Society Pages</em></a> can be found <a href="https://thesocietypages.org/search/ryan%20larson/">here</a>.</p></li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
