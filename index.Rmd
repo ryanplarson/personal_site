@@ -1,5 +1,3 @@
 ---
-title: "Personal Website"
+title: "Home"
 ---
-
-Hello, World!

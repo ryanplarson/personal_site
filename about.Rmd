@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "About"
 ---
 
-Why I am awesome. 
+I am a Ph.D. Candidate in Sociology in the University of Minnesota.
