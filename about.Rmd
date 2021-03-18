@@ -6,15 +6,15 @@ I am a Ph.D. Candidate in Sociology in the University of Minnesota. Broadly, I s
 crime, punishment, and quantitative methodology and statistics. My dissertation
 investigates the iatrogenic effects of punishment on crime and other aspects 
 of social life, using unique causal identification strategies. To read more 
-about my research projects [click here](). To download my Curriculum Vitae [click here](). 
+about my research projects [click here](research.html). To download my Curriculum Vitae [click here](cv.html). 
 
 Prior to graduate school, I received my BA in Sociology and Psychology, 
-*Summa cum Laude*, from Concordia College in 2014, and was the winner of the 
+*Summa cum Laude*, from [Concordia College](https://www.concordiacollege.edu/) in 2014, and was the winner of the 
 2014 Farden Memorial Prize in Sociology. I also played saxophone in 
 [The Concordia Band](https://www.concordiacollege.edu/student-life/music-ensembles/bands/the-concordia-band/) 
 and [The Concordia College Jazz Ensemble I](https://www.concordiacollege.edu/student-life/music-ensembles/jazz-ensembles/). 
 
-I have a dog, meet Pig!
+I also have a dog, meet Pig!
 
 <center>
 ![](images/pig.jpg)
