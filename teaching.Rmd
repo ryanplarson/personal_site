@@ -26,4 +26,4 @@ title: "Teaching"
   
 ## Planned Courses
   
- * Quantitative Methodology and Statistics ([syllabus](syllabi/larson_syllabus_draft.pdf))
+* Quantitative Methodology and Statistics ([syllabus](syllabi/larson_syllabus_draft.pdf))
