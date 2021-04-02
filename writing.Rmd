@@ -2,9 +2,6 @@
 title: "Writing"
 ---
 
-
-## Research
-
 ### Papers Under Review
 
 * Ryan P. Larson, Sarah Shannon, Aaron Sojourner, and Chris Uggen. "Felony History and Change in U.S. Employment Rates." Under review at *Social Science Research*. 
@@ -20,7 +17,7 @@ and Monetary Sanctions. Invited article to Russell Sage Foundation volume.
 
 ### Peer-Reviewed Articles
 
-* Jeanie Santaularia, Ryan P. Larson, Christopher Uggen. 2021. [“Criminal Punishment, Child Abuse, and Violent
+* Jeanie Santaularia, Ryan P. Larson, and Christopher Uggen. 2021. [“Criminal Punishment, Child Abuse, and Violent
 Injury in Minnesota.”](pubs/santaularia_etal_21.pdf) *Injury Epidemiology*, 8(11): 1-10.
 
 * Stewart, Evan, Penny Edgell, Sarah-Catherine Billups, and Ryan Larson. 2019. [“The Stakes of Symbolic Boundaries.”](pubs/stewart_etal_19.pdf)
