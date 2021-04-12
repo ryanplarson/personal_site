@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.2)  8 APR 2021 10:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.2)  12 APR 2021 14:24
 entering extended mode
 **./larson_CV.tex
 (larson_CV.tex
@@ -289,8 +289,7 @@ ex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box93
-)
-No file larson_CV.aux.
+) (larson_CV.aux)
 \openout1 = `larson_CV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -311,6 +310,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
+
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 
@@ -352,6 +352,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 65.
 LaTeX Info: Redefining \pageref on input line 65.
 LaTeX Info: Redefining \nameref on input line 65.
+ (larson_CV.out) (larson_CV.out)
 \@outlinefile=\write3
 \openout3 = `larson_CV.out'.
 
@@ -413,25 +414,19 @@ LaTeX Font Warning: Font shape `OT1/qtm/m/sl' in size <10> not available
 
 [2] [3] [4]
 LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 2
-76.
+80.
 
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 )
 [5] [6] (larson_CV.aux)
-
-Package rerunfilecheck Warning: File `larson_CV.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `larson_CV.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `larson_CV.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8342 strings out of 479321
- 126124 string characters out of 2857061
- 435408 words of memory out of 3000000
+ 8348 strings out of 479321
+ 126325 string characters out of 2857061
+ 435625 words of memory out of 3000000
  25703 multiletter control sequences out of 15000+600000
  429459 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -444,7 +439,7 @@ rr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre
 /qtmb.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-g
 yre/qtmr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/te
 x-gyre/qtmri.pfb>
-Output written on larson_CV.pdf (6 pages, 139830 bytes).
+Output written on larson_CV.pdf (6 pages, 140123 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
