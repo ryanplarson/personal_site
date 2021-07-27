@@ -48,7 +48,7 @@ The third empirical chapter uses novel estimates of the population of those with
 felony-level criminal records to examine how state-level record production has 
 impacted social-well being and crime rates. Specifically, the paper looks at how
 unemployment and voting turnout rates may be responsive to record production, and 
-how these indicators of social well-being moderate the relationship between
+how these indicators of social well-being mediate the relationship between
 the population of felony criminal record holders and state-level crime. Finally, 
 the paper leverages staggered timing in both 'ban-the-box' and felony 
 reenfranchisement policy in a generalized difference-in-difference design to 
