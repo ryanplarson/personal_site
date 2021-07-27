@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.2)  23 JUL 2021 10:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.2)  27 JUL 2021 12:00
 entering extended mode
 **./larson_CV.tex
 (larson_CV.tex
@@ -410,11 +410,11 @@ File: ot1qcr.fd 2009/09/25 v1.2 font definition file for OT1/qcr
 {C:/Users/DELL/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/qtm/m/sl' in size <10> not available
-(Font)              Font shape `OT1/qtm/m/it' tried instead on input line 187.
+(Font)              Font shape `OT1/qtm/m/it' tried instead on input line 185.
 
 [2] [3] [4]
 LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 2
-67.
+70.
 
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
@@ -430,7 +430,7 @@ Here is how much of TeX's memory you used:
  25703 multiletter control sequences out of 15000+600000
  429459 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,8n,74p,1011b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,8n,74p,1011b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.e
 nc}{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rm.e
 nc}{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rmm.
@@ -439,7 +439,7 @@ rr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre
 /qtmb.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-g
 yre/qtmr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/te
 x-gyre/qtmri.pfb>
-Output written on larson_CV.pdf (7 pages, 141622 bytes).
+Output written on larson_CV.pdf (7 pages, 142006 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
