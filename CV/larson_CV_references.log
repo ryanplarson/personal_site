@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.2)  30 JUL 2021 14:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.2)  2 AUG 2021 10:20
 entering extended mode
 **./larson_CV_references.tex
 (larson_CV_references.tex
@@ -400,11 +400,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 83.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 83.
-LaTeX Font Info:    Trying to load font information for OT1+qcr on input line 8
-8.
-(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ot1qcr.fd
-File: ot1qcr.fd 2009/09/25 v1.2 font definition file for OT1/qcr
-)
 [1
 
 {C:/Users/DELL/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
@@ -420,6 +415,12 @@ LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 2
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 )
 [5] [6]
+LaTeX Font Info:    Trying to load font information for OT1+qcr on input line 3
+96.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ot1qcr.fd
+File: ot1qcr.fd 2009/09/25 v1.2 font definition file for OT1/qcr
+)
 Overfull \hbox (31.52414pt too wide) in paragraph at lines 392--410
 $[]$ $[]$ $[]$ 
  []
@@ -436,15 +437,15 @@ Here is how much of TeX's memory you used:
  429459 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,8n,74p,1022b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.e
-nc}{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rm.e
-nc}{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rmm.
+{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rmm.e
+nc}{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.
+enc}{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-rm.
 enc}<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qc
 rr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre
 /qtmb.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-g
 yre/qtmr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/te
 x-gyre/qtmri.pfb>
-Output written on larson_CV_references.pdf (7 pages, 145376 bytes).
+Output written on larson_CV_references.pdf (7 pages, 144414 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
