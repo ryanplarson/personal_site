@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.2)  9 AUG 2021 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.8.26)  26 AUG 2021 20:05
 entering extended mode
 **./larson_CV_references.tex
 (larson_CV_references.tex
@@ -409,13 +409,13 @@ LaTeX Font Warning: Font shape `OT1/qtm/m/sl' in size <10> not available
 
 [2] [3] [4]
 LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 2
-74.
+75.
 
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 )
 [5] [6]
-Overfull \hbox (31.52414pt too wide) in paragraph at lines 396--414
+Overfull \hbox (31.52414pt too wide) in paragraph at lines 397--415
 $[]$ $[]$ $[]$ 
  []
 
@@ -425,7 +425,7 @@ Package rerunfilecheck Info: File `larson_CV_references.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  8311 strings out of 479321
- 125897 string characters out of 2857061
+ 125897 string characters out of 2857060
  434680 words of memory out of 3000000
  25667 multiletter control sequences out of 15000+600000
  429135 words of font info for 37 fonts, out of 8000000 for 9000
