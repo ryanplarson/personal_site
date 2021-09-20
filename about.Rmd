@@ -2,11 +2,7 @@
 title: "About"
 ---
 
-I am a Ph.D. Candidate in Sociology in the University of Minnesota. Broadly, I study 
-crime, punishment, and quantitative methodology and statistics. My dissertation
-investigates the iatrogenic effects of punishment on crime and other aspects 
-of social life, using unique causal identification strategies. To read more 
-about my research projects [click here](research.html). To download my Curriculum Vitae [click here](cv.html). 
+I am a Ph.D. Candidate in Sociology in the University of Minnesota. My research program is driven by an interest in how punishment in the U.S. is tied to both crime and other social institutions. Building on the growing research on the causes and consequences of punishment, my scholarship explores previously neglected dimensions of crime etiology in relation to punishment as well as its impacts on other aspects of social life. My work expands upon how punishment, in part, (re)produces inequalities by race, place, and crime, as well as answers certain scientific and policy questions within the sociology of crime and punishment. My scholarship places an emphasis on the innovative use of quantitative methodology, including contemporary methods of causal inference.  My dissertation investigates the iatrogenic effects of punishment on crime and other aspects of social life, using unique causal identification strategies. To read more about my research projects and dissertation [click here](research.html). To download my Curriculum Vitae [click here](cv.html). 
 
 Prior to graduate school, I received my BA in Sociology and Psychology, 
 *Summa cum Laude*, from [Concordia College](https://www.concordiacollege.edu/) in 2014, and was the winner of the 
