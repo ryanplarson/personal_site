@@ -1,0 +1,31 @@
+name: "personal-website"
+output_dir: "."
+navbar:
+  title: ""
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+    - text: "Writing"     
+      href: writing.html 
+    - text: "Research"     
+      href: research.html 
+    - text: "Teaching"     
+      href: teaching.html
+    - text: "CV"
+      href: cv.html
+
+  right:
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: mailto:rlarson21@hamline.edu
+    - text: "Twitter"
+      icon: fa-twitter
+      href: https://twitter.com/ryanplarson
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/ryanplarson        
+
+output:
+  html_document

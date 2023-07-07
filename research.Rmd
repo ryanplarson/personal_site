@@ -1,0 +1,105 @@
+---
+title: "Research"
+---
+
+## The Iatrogenic Effects of Punishment
+
+My dissertation examines the link between punishment and crime at three 
+different levels of analysis, specifically investigating how punishment can 
+exacerbate crime and criminogenic contexts, both directly and indirectly through 
+its impact on existing stratification and collateral consequences. 
+The quantitative analyses examine how punishment’s varied forms, intensities, 
+and contexts are implicated in the (re)production of class and racial inequalities, 
+the structuring of American neighborhoods and contexts, and the corrosion of 
+general social health; all of which are implicated 
+the genesis of crime. 
+
+*The Causal Packaging Effects of Punishment*
+
+The United States has experienced a marked rise across multiple forms of punishment, such as incarceration, probation, and monetary sanctions during the era of mass incarceration. However, studies examining the impacts of punishment on recidivism have a) primarily focused solely on the effects of incarceration and b) treated each axis of punishment as a separate, isolated factor, in contrast to how they are experienced as a “package” of punishment. This study leverages a natural experiment using the quasi-random assignment of judges within Minnesota Judicial Districts and estimates the causal impacts of incarceration, probation, and monetary sanctions on recidivism, while also examining how each punishment mode may condition the impact of the other. Findings indicate that the relationship between punishment and subsequent crime is weak overall, but the packaging of probation and LFOs together may be criminogenic. Further, negative effects for incarceration are only present amongst more advantaged defendants. These findings suggest that the impacts of punishment should be studied as they are experienced – as a mutually-constitutive package of confinement, surveillance, and financial costs. 
+
+<center>
+![](images/iv_dag.png){width=50%}
+</center>
+
+*Punishment, Concentrated Disadvantage, and Crime*
+
+A long tradition of sociological and criminological research has documented the ecological effects of neighborhoods on crime rates. Theories and research on neighborhood ecology highlight the causal importance of neighborhood structure for crime, and, in particular, concentrated disadvantage. However, this literature largely neglects what role punishment, in terms of incarceration, probation, and monetary sanctions, plays in this theoretical model. Building upon previous scholarship that suggests that punishment plays a key role in the (re)production of social inequality and disadvantage, this chapter uses a unique panel dataset -- merging hospital discharge, state court punishment records, socioeconomic and demographic Census data -- to examine how neighborhood punishment loads may a) directly impact rates of violent injury, and b) impact violence indirectly through the patterning of concentrated disadvantage. Results from ZCTA (Zip Code Tabulation Area)-year fixed effect panel models highlight that while incarceration has a direct negative effect on violence, and probation a positive association, both incarceration and probation are positively associated with concentrated disadvantage, which is, in turn, positively associated with disadvantage. These results reveal the bifurcating effects of punishment on violence at the community level, and highlights a criminogenic path of punishment on violence via the augmentation of disadvantage. 
+
+*Ban-the-Box, Employment, and Crime*
+
+This empirical chapter investigates a state policy with the potential to mitigate some of the iatrogenic effects of punishment on crime via employment: ban-the-box (BTB) legislation. While previous research has investigated the effects of these policies for individual employment, questions remain as to whether these laws impact macro-level employment and, distally, crime rates. This chapter leverages a uniquely constructed panel dataset of U.S. states from 1995-2020 and estimates staggered adoption difference-in-difference (DID) models to estimate the causal effect of BTB legislation on both employment and crime at the state-level. I estimate an average treatment effect of -1.7 for nonemployment, marking BTB laws as catalysts for state-level employment, but that these effects are moderated by both race and a state’s history of criminal record production. The results on crime are much weaker, suggesting that BTB legislation does not reach to significantly reduce state-level crime. 
+
+## Multistate Study of Monetary Sanctions
+
+Minnesota is one of eight states included in the [Multi-State Study of Monetary Sanctions](http://www.monetarysanctions.org/), 
+led by principal investigator Alexes Harris (University of Washington),
+investigating systems of monetary sanctions in the United States. Using
+automated court data provided by the Minnesota State Court Administrator's 
+Office, alongside interviews and ethnographic observations,  I am collaboratively
+examining the role of race in the sentencing of LFOs, as well as the role of 
+LFO concentrations on neighborhood poverty and housing instability. 
+I am also examining the extra-legal effects of race on incarceration, probation, and monetary sanctions (under review at *American Sociological Review*) as well as the impact of LFO amounts on recidivism and other aspects of social life. 
+
+<center>
+![](images/race_ff.png){width=90%}
+</center>
+
+## Punishment and Violence
+
+Collaborative work has estimated the relationships between county-level punishment
+and violent victimization as measured by hospital records. The first paper, published in  *Violent Epidemiology*,
+examines the relationships between county-level criminal punishment and violence. A second paper examines the temporal and spatial patterns in gun assault hospital discharges before and after the police killing of George Floyd using an interrupted time-series design. We are also working on examining the mental health aftereffects of police violence, as well as document the voting patterns surrounding Amendment 2 in Minneapolis. I am also currently collaborating with scholars in the School of Public Health at the University of Minnesota exploring the spatial concentrations of carjackings in Minneapolis, and which carjacking events local media is responsive to.
+
+<center>
+![](images/dv_map.png){width=90%}
+</center>
+
+<center>
+![](images/mpls_ga_time.png){width=100%}
+</center>
+
+
+
+## Dual Debtors Project
+
+The Dual Debtors Project is mixed-method collaborative research that examines the
+nexus of criminal justice debt and child support debt. I am a Co-Investigator on a grant from the *Linda and John Arnold Foundation*  where we investigate the relationships between criminal justice and child support debt. My current work investigates
+whether child support arrears are responsive to criminal justice debt, and whether these institutional forms of debt interact to pattern crime. 
+
+<center>
+![](images/dual_debt.png){width=100%}
+</center>
+
+## Felony Disenfranchisement Estimates
+
+Collaboratively with Chris Uggen, Sarah Shannon, and Robert Stewart, we have compiled
+estimates of the population disenfranchised due to a felony record. We estimated 
+that 6.1 million were legally disenfranchised due to a felony criminal record as 
+of election day 2016, 5.2 million on election day 2020, and 4.6 million as of the midterm 2022 elections. Our estimates are 
+published by [The Sentencing Project](sentencing project.org). 
+
+* [Locked Out 2022: Estimates of People Denied Voting Rights Due to a Felony Conviction](https://www.sentencingproject.org/wp-content/uploads/2022/10/Locked-Out-2022-Estimates-of-People-Denied-Voting.pdf)
+
+* [Locked Out 2020: Estimates of People Denied Voting Rights Due to a Felony Conviction](https://www.sentencingproject.org/wp-content/uploads/2020/10/Locked-Out-2020.pdf)
+
+* [6 Million Lost Voters: State-Level Estimates of Felony Disenfranchisement, 2016](https://www.sentencingproject.org/wp-content/uploads/2016/10/6-Million-Lost-Voters.pdf)
+
+<center>
+![](images/fd_2020.png){width=80%}
+</center>
+
+
+## American Mosaic Project
+
+I have been a research assistant and collaborator on the 
+[American Mosaic Project](https://cla.umn.edu/sociology/graduate/collaboration-opportunities/american-mosaic-project-amp),  a survey of the social boundaries of American political and religious life. 
+Specifically, I have collaboratively published work on [racial colorblindness as
+an identity](https://journals.sagepub.com/doi/abs/10.1177/0731121417719694?ai=1gvoi&mi=3ricys&af=R), 
+and am currently working examining colorblind
+ideology and its impacts on race-specific policy.
+
+<center>
+![](images/figure_1_2018_revised.png){width=60%}
+</center>
+

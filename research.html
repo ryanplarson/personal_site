@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research</title>
+
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About Me</a>
+</li>
+<li>
+  <a href="writing.html">Writing</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:rlarson21@hamline.edu">
+    <span class="fa fa-envelope-o"></span>
+     
+    Contact me
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/ryanplarson">
+    <span class="fa fa-twitter"></span>
+     
+    Twitter
+  </a>
+</li>
+<li>
+  <a href="https://github.com/ryanplarson">
+    <span class="fa fa-github"></span>
+     
+    GitHub
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Research</h1>
+
+</div>
+
+
+<div id="the-iatrogenic-effects-of-punishment" class="section level2">
+<h2>The Iatrogenic Effects of Punishment</h2>
+<p>My dissertation examines the link between punishment and crime at
+three different levels of analysis, specifically investigating how
+punishment can exacerbate crime and criminogenic contexts, both directly
+and indirectly through its impact on existing stratification and
+collateral consequences. The quantitative analyses examine how
+punishment’s varied forms, intensities, and contexts are implicated in
+the (re)production of class and racial inequalities, the structuring of
+American neighborhoods and contexts, and the corrosion of general social
+health; all of which are implicated the genesis of crime.</p>
+<p><em>The Causal Packaging Effects of Punishment</em></p>
+<p>The United States has experienced a marked rise across multiple forms
+of punishment, such as incarceration, probation, and monetary sanctions
+during the era of mass incarceration. However, studies examining the
+impacts of punishment on recidivism have a) primarily focused solely on
+the effects of incarceration and b) treated each axis of punishment as a
+separate, isolated factor, in contrast to how they are experienced as a
+“package” of punishment. This study leverages a natural experiment using
+the quasi-random assignment of judges within Minnesota Judicial
+Districts and estimates the causal impacts of incarceration, probation,
+and monetary sanctions on recidivism, while also examining how each
+punishment mode may condition the impact of the other. Findings indicate
+that the relationship between punishment and subsequent crime is weak
+overall, but the packaging of probation and LFOs together may be
+criminogenic. Further, negative effects for incarceration are only
+present amongst more advantaged defendants. These findings suggest that
+the impacts of punishment should be studied as they are experienced – as
+a mutually-constitutive package of confinement, surveillance, and
+financial costs.</p>
+<center>
+<img src="images/iv_dag.png" style="width:50.0%" />
+</center>
+<p><em>Punishment, Concentrated Disadvantage, and Crime</em></p>
+<p>A long tradition of sociological and criminological research has
+documented the ecological effects of neighborhoods on crime rates.
+Theories and research on neighborhood ecology highlight the causal
+importance of neighborhood structure for crime, and, in particular,
+concentrated disadvantage. However, this literature largely neglects
+what role punishment, in terms of incarceration, probation, and monetary
+sanctions, plays in this theoretical model. Building upon previous
+scholarship that suggests that punishment plays a key role in the
+(re)production of social inequality and disadvantage, this chapter uses
+a unique panel dataset – merging hospital discharge, state court
+punishment records, socioeconomic and demographic Census data – to
+examine how neighborhood punishment loads may a) directly impact rates
+of violent injury, and b) impact violence indirectly through the
+patterning of concentrated disadvantage. Results from ZCTA (Zip Code
+Tabulation Area)-year fixed effect panel models highlight that while
+incarceration has a direct negative effect on violence, and probation a
+positive association, both incarceration and probation are positively
+associated with concentrated disadvantage, which is, in turn, positively
+associated with disadvantage. These results reveal the bifurcating
+effects of punishment on violence at the community level, and highlights
+a criminogenic path of punishment on violence via the augmentation of
+disadvantage.</p>
+<p><em>Ban-the-Box, Employment, and Crime</em></p>
+<p>This empirical chapter investigates a state policy with the potential
+to mitigate some of the iatrogenic effects of punishment on crime via
+employment: ban-the-box (BTB) legislation. While previous research has
+investigated the effects of these policies for individual employment,
+questions remain as to whether these laws impact macro-level employment
+and, distally, crime rates. This chapter leverages a uniquely
+constructed panel dataset of U.S. states from 1995-2020 and estimates
+staggered adoption difference-in-difference (DID) models to estimate the
+causal effect of BTB legislation on both employment and crime at the
+state-level. I estimate an average treatment effect of -1.7 for
+nonemployment, marking BTB laws as catalysts for state-level employment,
+but that these effects are moderated by both race and a state’s history
+of criminal record production. The results on crime are much weaker,
+suggesting that BTB legislation does not reach to significantly reduce
+state-level crime.</p>
+</div>
+<div id="multistate-study-of-monetary-sanctions" class="section level2">
+<h2>Multistate Study of Monetary Sanctions</h2>
+<p>Minnesota is one of eight states included in the <a
+href="http://www.monetarysanctions.org/">Multi-State Study of Monetary
+Sanctions</a>, led by principal investigator Alexes Harris (University
+of Washington), investigating systems of monetary sanctions in the
+United States. Using automated court data provided by the Minnesota
+State Court Administrator’s Office, alongside interviews and
+ethnographic observations, I am collaboratively examining the role of
+race in the sentencing of LFOs, as well as the role of LFO
+concentrations on neighborhood poverty and housing instability. I am
+also examining the extra-legal effects of race on incarceration,
+probation, and monetary sanctions (under review at <em>American
+Sociological Review</em>) as well as the impact of LFO amounts on
+recidivism and other aspects of social life.</p>
+<center>
+<img src="images/race_ff.png" style="width:90.0%" />
+</center>
+</div>
+<div id="punishment-and-violence" class="section level2">
+<h2>Punishment and Violence</h2>
+<p>Collaborative work has estimated the relationships between
+county-level punishment and violent victimization as measured by
+hospital records. The first paper, published in <em>Violent
+Epidemiology</em>, examines the relationships between county-level
+criminal punishment and violence. A second paper examines the temporal
+and spatial patterns in gun assault hospital discharges before and after
+the police killing of George Floyd using an interrupted time-series
+design. We are also working on examining the mental health aftereffects
+of police violence, as well as document the voting patterns surrounding
+Amendment 2 in Minneapolis. I am also currently collaborating with
+scholars in the School of Public Health at the University of Minnesota
+exploring the spatial concentrations of carjackings in Minneapolis, and
+which carjacking events local media is responsive to.</p>
+<center>
+<img src="images/dv_map.png" style="width:90.0%" />
+</center>
+<center>
+<img src="images/mpls_ga_time.png" style="width:100.0%" />
+</center>
+</div>
+<div id="dual-debtors-project" class="section level2">
+<h2>Dual Debtors Project</h2>
+<p>The Dual Debtors Project is mixed-method collaborative research that
+examines the nexus of criminal justice debt and child support debt. I am
+a Co-Investigator on a grant from the <em>Linda and John Arnold
+Foundation</em> where we investigate the relationships between criminal
+justice and child support debt. My current work investigates whether
+child support arrears are responsive to criminal justice debt, and
+whether these institutional forms of debt interact to pattern crime.</p>
+<center>
+<img src="images/dual_debt.png" style="width:100.0%" />
+</center>
+</div>
+<div id="felony-disenfranchisement-estimates" class="section level2">
+<h2>Felony Disenfranchisement Estimates</h2>
+<p>Collaboratively with Chris Uggen, Sarah Shannon, and Robert Stewart,
+we have compiled estimates of the population disenfranchised due to a
+felony record. We estimated that 6.1 million were legally
+disenfranchised due to a felony criminal record as of election day 2016,
+5.2 million on election day 2020, and 4.6 million as of the midterm 2022
+elections. Our estimates are published by <a
+href="sentencing%20project.org">The Sentencing Project</a>.</p>
+<ul>
+<li><p><a
+href="https://www.sentencingproject.org/wp-content/uploads/2022/10/Locked-Out-2022-Estimates-of-People-Denied-Voting.pdf">Locked
+Out 2022: Estimates of People Denied Voting Rights Due to a Felony
+Conviction</a></p></li>
+<li><p><a
+href="https://www.sentencingproject.org/wp-content/uploads/2020/10/Locked-Out-2020.pdf">Locked
+Out 2020: Estimates of People Denied Voting Rights Due to a Felony
+Conviction</a></p></li>
+<li><p><a
+href="https://www.sentencingproject.org/wp-content/uploads/2016/10/6-Million-Lost-Voters.pdf">6
+Million Lost Voters: State-Level Estimates of Felony Disenfranchisement,
+2016</a></p></li>
+</ul>
+<center>
+<img src="images/fd_2020.png" style="width:80.0%" />
+</center>
+</div>
+<div id="american-mosaic-project" class="section level2">
+<h2>American Mosaic Project</h2>
+<p>I have been a research assistant and collaborator on the <a
+href="https://cla.umn.edu/sociology/graduate/collaboration-opportunities/american-mosaic-project-amp">American
+Mosaic Project</a>, a survey of the social boundaries of American
+political and religious life. Specifically, I have collaboratively
+published work on <a
+href="https://journals.sagepub.com/doi/abs/10.1177/0731121417719694?ai=1gvoi&amp;mi=3ricys&amp;af=R">racial
+colorblindness as an identity</a>, and am currently working examining
+colorblind ideology and its impacts on race-specific policy.</p>
+<center>
+<img src="images/figure_1_2018_revised.png" style="width:60.0%" />
+</center>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
