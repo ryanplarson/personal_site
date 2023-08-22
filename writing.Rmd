@@ -4,7 +4,7 @@ title: "Writing"
 
 ### Peer-Reviewed Articles
 
-* Ryan P. Larson, Jeanie Santaularia, and Christopher Uggen. [“Temporal and Spatial Shifts in Gun Violence, Before and After a Historic Police Killing in Minneapolis.”](pubs/larson_etal_23_preprint.pdf) Forthcoming in *Spatial and Spatiotemporal Epidemiology*.
+* Ryan P. Larson, Jeanie Santaularia, and Christopher Uggen. [“Temporal and Spatial Shifts in Gun Violence, Before and After a Historic Police Killing in Minneapolis.”](pubs/larson_etal_23_online.pdf) Forthcoming in *Spatial and Spatiotemporal Epidemiology*.
 
 * Veronica Horowitz, Kimberly Spencer-Suarez, Ryan Larson, Robert Stewart, Frank Edwards, Emmi Obara, and Christopher Uggen. 2022. ["Dual Debtors: Child Support and Criminal Financial Legal Obligations."](pubs/horowitz_etal_22.pdf) *Social Service Review*, 96(2):226-267.
 
