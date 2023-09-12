@@ -2,11 +2,13 @@
 title: "Teaching"
 ---
 
+Professor Larson strives to teach students not just the “social facts” within criminology, but also the process and logic of social science that provides the scientific foundation for this knowledge. Dr. Larson has a passion for quantitative and statistical methods and works to convey these tools in an understandable and intuitive way. Through his teaching, he hopes his students gain both substantive knowledge and methodological tools to help make sense of the social world, and their place within it, in order to become more responsibly engaged in society.
+
 ## Hamline University 
 ### Department of Criminal Justice \& Forensic Science
 
 * CJFS 3770 Punishment, Corrections, and Society
-  + Fall 2023 ([syllabus](syllabi/CJfS_3770_F23.pdf))
+  + Fall 2023 ([syllabus](syllabi/CJFS_3770_F23.pdf))
 
 * CJFS 1980 Basic Quantitative Criminology and Statistics
   + Spring 2023 ([syllabus](syllabi/CJFS_1980_S23.pdf))
@@ -16,7 +18,7 @@ title: "Teaching"
   + Fall 2022 ([syllabus](syllabi/CJFS_3750_F22.pdf))
   
 * CJFS 3140 Research Methods and Data Analysis
-  + Fall 2023 ([syllabus](syllabi/CJfS_3140_F23.pdf))
+  + Fall 2023 ([syllabus](syllabi/CJFS_3140_F23.pdf))
   + Spring 2023 ([syllabus](syllabi/CJFS_3140_S23.pdf))
   + Fall 2022 ([syllabus](syllabi/CJFS_3140_F22.pdf))
 
