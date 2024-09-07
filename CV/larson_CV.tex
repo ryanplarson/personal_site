@@ -1,15 +1,13 @@
 
 \documentclass[letterpaper]{article}
 
+%\usepackage{sectsty} % Allows changing the font options for sections in a document
 \usepackage{hyperref}
 \usepackage{geometry}
 \usepackage{multicol}
 \usepackage{fancyhdr}
 \usepackage{xcolor}
-
-
-%\usepackage[sc,osf]{mathpazo}
-
+\usepackage[semibold]{ebgaramond} % Use the EB Garamond font with a reduced bold weight
 \usepackage{titlesec}
 
 
@@ -30,22 +28,39 @@
   pdfpagemode = UseNone
 }
 
+
 \geometry{
-  body={6.5in, 8.5in},
-  left=1.0in,
-  top=1.25in
+	paper=letterpaper, % Paper size, change to letterpaper for US letter size
+	top=3.25cm, % Top margin
+	bottom=4cm, % Bottom margin
+	left=3.5cm, % Left margin
+	right=3.5cm, % Right margin
+	headheight=0.75cm, % Header height
+	footskip=1cm, % Space from the bottom margin to the baseline of the footer
+	headsep=0.75cm, % Space from the top margin to the baseline of the header
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+%\sectionfont{\fontsize{13.5pt}{18pt}\selectfont} % Set font options for sections
+%\subsectionfont{\mdseries\scshape\normalsize} % Set font options for subsections
+%\subsubsectionfont{\mdseries\upshape\bfseries\normalsize} % Set font options for subsubsections
+
+
+
+\newenvironment{publist}{%
+  \begin{list}{}{%
+    \setlength{\leftmargin}{0cm}   % Adjust left margin here
+    \setlength{\labelwidth}{2cm}     % Adjust label width here (for the year)
+    \setlength{\labelsep}{0.5cm}     % Adjust space between label and text
+  }%
+}{%
+  \end{list}%
 }
 
 % Customize page headers
 \pagestyle{myheadings}
 \markright{\name}
 \thispagestyle{empty}
-
-% Custom section fonts
-%\usepackage{sectsty}
-%\usepackage{tgheros,tgtermes,tgcursor}
-%\sectionfont{\rmfamily \mdseries\large}
-%\subsectionfont{\rmfamily\mdseries\itshape\large}
 
 
 %sections
@@ -62,19 +77,9 @@
 \rule{\textwidth}{0.3pt}
 ] % after-code
 
-%subsections
-\titleformat
-{\subsection} % command
-[display] % shape
-{\rmfamily \mdseries\normalsize} % format
-{\thesubsection} % label
-{0.5ex} % sep
-{
-} % before-code
-[
-\rule{\textwidth}{0.3pt}
-] % after-code
 
+\titleformat{\subsection}
+  {\normalfont\normalsize\itshape\bfseries}{\thesubsection.}{1em}{}
 
 
 % Don't indent paragraphs.
@@ -127,299 +132,325 @@ Last updated: \today
 \section*{\textbf{Appointments}}
 
 
-\begin{itemize}
+\begin{publist}
 
-\item 2022-    Assistant Professor of Criminology, Hamline University
+\item[\textbf{2022-present}] Assistant Professor of Criminology, Hamline University
 
-\item 2023-   Co-Director of the Summer Collaborative Undergraduate Research Program (SCUR), Hamline University
+\item[\textbf{2023-present}] Co-Director of the Summer Collaborative Undergraduate Research Program (SCUR), Hamline University
 
 
-\end{itemize}
+\end{publist}
 
 
 
 \section*{\textbf{Education}}
 
-\begin{itemize}
-  \item Ph.D. Sociology, University of Minnesota - Twin Cities, 2022
+\begin{publist}
+  \item[\textbf{2022}] Ph.D. Sociology, University of Minnesota - Twin Cities
    \begin{itemize}
      %\item Advisor: \href{http://www.soc.umn.edu/~uggen/}{Chris Uggen}
-	\item \textit{Committee:} Chris Uggen (Advisor),  Doug Hartmann, Ann Meier, Josh Page, Aaron Sojourner (Economist, Carlson School of Management)
+	\item \textit{Committee:} Chris Uggen (Advisor),  Doug Hartmann, Ann Meier, Josh Page, Aaron Sojourner 
 	%\item \textit{Preliminary Exam:} ``Bringing Crime Back In: Crime Etiology and Punishment Effects"
            \item \textit{Dissertation:} \href{https://conservancy.umn.edu/bitstream/handle/11299/243159/Larson_umn_0130E_23712.pdf?sequence=1}{The Iatrogenic Effects of Punishment}
 \end{itemize}
     
-\item M.A. Sociology, University of Minnesota - Twin Cities, 2018
+\item[\textbf{2018}] M.A. Sociology, University of Minnesota - Twin Cities
 
- \item B.A. Sociology and Psychology, Concordia College, 2014
+\item[\textbf{2014}] B.A. Sociology and Psychology, Concordia College
  \begin{itemize}
      \item \textit{Honors}: \textit{Summa cum Laude}, 2014 Farden Memorial Prize in Sociology
     \end{itemize}
-\end{itemize}
+\end{publist}
 
 \section*{\textbf{Areas of Interest}}
 
-Crime, Punishment, and Stratification, Quantitative Methodology and Statistics, Causal Inference
+Crime, Punishment, and Stratification, Quantitative Methodology and Statistics, Spatial Analysis, Causal Inference
 
 
-\section*{\textbf{Publications}} \textsuperscript{+} = student co-author
+\section*{\textbf{Publications} \scriptsize{\textsuperscript{+} denotes student co-author}} 
 
 \subsection*{Peer-Reviewed Articles}
 
-\begin{itemize}
+\begin{publist}
 
-\item N. Jeanie Santaularia, \textbf{Ryan Larson}, Christopher E. Robertson\textsuperscript{+}, Christopher Uggen. 2024. ``Mental Health Before and After George Floyd’s Murder in Minneapolis in Black, Latine, and White Communities." Forthcoming at \textit{American Journal of Epidemiology}.
+\item[\textbf{2024}]  N. Jeanie Santaularia, \textbf{Ryan Larson}, Christopher E. Robertson\textsuperscript{+}, Christopher Uggen. ``Mental Health Before and After George Floyd’s Murder in Minneapolis in Black, Latine, and White Communities." Forthcoming at \textit{American Journal of Epidemiology}.
 
-\item Schwendeman, Hannah\textsuperscript{+}, Veronica L. Horowitz, Frank Edwards, Robert Stewart, \textbf{Ryan Larson}, and Christopher Uggen. 2024. ``My Right Arm Should be ‘Debt’ and My Left Arm Should be ‘Felony’”: Dual Debt in the Child Support and Criminal Legal Systems." Forthcoming at \textit{Law and Society Review}. 
+\item Schwendeman, Hannah\textsuperscript{+}, Veronica L. Horowitz, Frank Edwards, Robert Stewart, \textbf{Ryan Larson}, and Christopher Uggen. ``My Right Arm Should be ‘Debt’ and My Left Arm Should be ‘Felony’”: Dual Debt in the Child Support and Criminal Legal Systems." Forthcoming at \textit{Law and Society Review}. 
 
-\item Allison Lind\textsuperscript{+}, \textbf{Ryan P. Larson}, Susan M. Mason, Christopher Uggen. 2024. \href{https://ryanplarson.github.io/personal_site/pubs/lind_etal_24.pdf}{``Carjacking and Homicide in Minneapolis After the Police Killing of George Floyd:  Evidence from an Interrupted Time Series Analysis."} \textit{Social Science \& Medicine} 358:1-19.
+\item Allison Lind\textsuperscript{+}, \textbf{Ryan P. Larson}, Susan M. Mason, Christopher Uggen. \href{https://ryanplarson.github.io/personal_site/pubs/lind_etal_24.pdf}{``Carjacking and Homicide in Minneapolis After the Police Killing of George Floyd:  Evidence from an Interrupted Time Series Analysis."} \textit{Social Science \& Medicine} 358:1-19.
 
 \begin{itemize}
 \item Winner of the 2023 American College of Epidemiology (ACE) Student Paper of the Year Award
 \end{itemize}
 
-\item Sarah Shannon, \textbf{Ryan Larson}, Ian Kennedy,  Kate O'Neil, and Alexes Harris. 2024. \href{https://ryanplarson.github.io/personal_site/pubs/shannon_etal_24.pdf}{``Economic Extraction via the Criminal Legal System: A Community-level Perspective."} \textit{Socius} 10. 
+\item Sarah Shannon, \textbf{Ryan Larson}, Ian Kennedy,  Kate O'Neil, and Alexes Harris. \href{https://ryanplarson.github.io/personal_site/pubs/shannon_etal_24.pdf}{``Economic Extraction via the Criminal Legal System: A Community-level Perspective."} \textit{Socius} 10. 
 
-\item Horowitz, Veronica, \textbf{Ryan P. Larson}, Robert Stewart, and Christopher Uggen. 2024. \href{https://ryanplarson.github.io/personal_site/pubs/horowitz_etal_24.pdf}{``Fines, Fees, and Families: Monetary Sanctions as Stigmatized Intergenerational Exchange."} \textit{The Sociological Quarterly} 1-20.
+\item Horowitz, Veronica, \textbf{Ryan P. Larson}, Robert Stewart, and Christopher Uggen. \href{https://ryanplarson.github.io/personal_site/pubs/horowitz_etal_24.pdf}{``Fines, Fees, and Families: Monetary Sanctions as Stigmatized Intergenerational Exchange."} \textit{The Sociological Quarterly} 1-20.
 
-\item \textbf{Ryan P. Larson}, Jeanie Santaularia, and Christopher Uggen. 2023. \href{https://ryanplarson.github.io/personal_site/pubs/larson_etal_23_online.pdf}{``Temporal and Spatial Shifts in Gun Violence, Before and After a Historic Police Killing in Minneapolis."} \textit{Spatial and Spatiotemporal Epidemiology} 100602.
+\item[\textbf{2023}] \textbf{Ryan P. Larson}, Jeanie Santaularia, and Christopher Uggen. \href{https://ryanplarson.github.io/personal_site/pubs/larson_etal_23_online.pdf}{``Temporal and Spatial Shifts in Gun Violence, Before and After a Historic Police Killing in Minneapolis."} \textit{Spatial and Spatiotemporal Epidemiology} 100602.
 
-\item Horowitz, Veronica, Kimberly Spencer-Suarez, \textbf{Ryan Larson}, Robert Stewart, Frank Edwards, Emmi Obara, and Chris Uggen. 2022. \href{https://ryanplarson.github.io/personal_site/pubs/horowitz_etal_22.pdf}{``Dual Debtors: Child Support and Criminal Financial Legal Obligations."} \textit{Social Service Review}, 96(2): 226-267.
+\item[\textbf{2022}] Horowitz, Veronica, Kimberly Spencer-Suarez, \textbf{Ryan Larson}, Robert Stewart, Frank Edwards, Emmi Obara, and Chris Uggen. \href{https://ryanplarson.github.io/personal_site/pubs/horowitz_etal_22.pdf}{``Dual Debtors: Child Support and Criminal Financial Legal Obligations."} \textit{Social Service Review}, 96(2): 226-267.
 
-\item Horowitz, Veronica,  \textbf{Ryan Larson}, Victoria Piehowski, Allison Nobles, and Josh Page. 2022. \href{https://ryanplarson.github.io/personal_site/pubs/horowitz_etal_21.pdf}{``Pragmatic Punitiveness: The Institutionalization of Criminal Domestic Violence Protection Orders."} \textit{Social \& Legal Studies}, 31(5): 679-703.
+\item Horowitz, Veronica,  \textbf{Ryan Larson}, Victoria Piehowski, Allison Nobles, and Josh Page. \href{https://ryanplarson.github.io/personal_site/pubs/horowitz_etal_21.pdf}{``Pragmatic Punitiveness: The Institutionalization of Criminal Domestic Violence Protection Orders."} \textit{Social \& Legal Studies}, 31(5): 679-703.
 
-\item Hamilton, Amber, Doug Hartmann, and \textbf{Ryan P. Larson}. 2022. \href{https://ryanplarson.github.io/personal_site/pubs/hamilton_etal_22.pdf}{``Assessing and Extending Colorblind Racism Theory Using National Survey Data."} \textit{Sociology of Race and Ethnicity}, 8(2): 267-283.
+\item Hamilton, Amber, Doug Hartmann, and \textbf{Ryan P. Larson}. \href{https://ryanplarson.github.io/personal_site/pubs/hamilton_etal_22.pdf}{``Assessing and Extending Colorblind Racism Theory Using National Survey Data."} \textit{Sociology of Race and Ethnicity}, 8(2): 267-283.
 
-\item Stewart, Rob, Bieanna Watters, Veronica Horowitz, \textbf{Ryan Larson}, Brian Sargent, and Christopher Uggen. 2022. \href{https://ryanplarson.github.io/personal_site/pubs/stewart_etal_22.pdf}{``Native Americans and Monetary Sanctions."} \textit{The Russell Sage Foundation Journal of the Social Sciences}, 8(2) 137-156.
+\item Stewart, Rob, Bieanna Watters, Veronica Horowitz, \textbf{Ryan Larson}, Brian Sargent, and Christopher Uggen. \href{https://ryanplarson.github.io/personal_site/pubs/stewart_etal_22.pdf}{``Native Americans and Monetary Sanctions."} \textit{The Russell Sage Foundation Journal of the Social Sciences}, 8(2) 137-156.
 
 \begin{itemize}
 \item Media: \href{https://www.mprnews.org/story/2022/04/21/native-women-incarcerated}{\textit{Minnesota Public Radio}}, \href{https://www.irp.wisc.edu/resource/brieanna-watters-and-robert-stewart-on-native-americans-and-monetary-sanctions/}{\textit{Institute for Research on Poverty (podcast)}}
 \end{itemize}
 
-\item  \textbf{Larson, Ryan P.}, Chris Uggen, Sarah Shannon, and Aaron Sojourner. 2021. \href{https://ryanplarson.github.io/personal_site/pubs/larson_etal_22.pdf}{``Felony History and Change in U.S. Employment Rates."} \textit{Social Science Research} 103 102649.
+\item[\textbf{2021}] \textbf{Larson, Ryan P.}, Chris Uggen, Sarah Shannon, and Aaron Sojourner. \href{https://ryanplarson.github.io/personal_site/pubs/larson_etal_22.pdf}{``Felony History and Change in U.S. Employment Rates."} \textit{Social Science Research} 103 102649.
 
-\item  Santaularia, Jeanie, \textbf{Ryan P. Larson}, and Christopher Uggen. 2021. \href{https://ryanplarson.github.io/personal_site/pubs/santaularia_etal_21.pdf}{``Criminal Punishment and Violent Injury in Minnesota."} \textit{Injury Epidemiology}, 8(11) 1-10.
+\item  Santaularia, Jeanie, \textbf{Ryan P. Larson}, and Christopher Uggen. \href{https://ryanplarson.github.io/personal_site/pubs/santaularia_etal_21.pdf}{``Criminal Punishment and Violent Injury in Minnesota."} \textit{Injury Epidemiology}, 8(11) 1-10.
 
-\item Stewart, Evan, Penny Edgell, Sarah-Catherine Billups, and \textbf{Ryan Larson}. 2019. \href{https://ryanplarson.github.io/personal_site/pubs/stewart_etal_19.pdf}{``The Stakes of Symbolic Boundaries."} \textit{The Sociological Quarterly}, 61(2): 309-333.
+\item[\textbf{2019}] Stewart, Evan, Penny Edgell, Sarah-Catherine Billups, and \textbf{Ryan Larson}. \href{https://ryanplarson.github.io/personal_site/pubs/stewart_etal_19.pdf}{``The Stakes of Symbolic Boundaries."} \textit{The Sociological Quarterly}, 61(2): 309-333.
 
-\item Meier, Ann, Ben Hartmann\textsuperscript{+}, and \textbf{Ryan Larson}. 2018.  \href{https://ryanplarson.github.io/personal_site/pubs/meier_etal_18.pdf}{``A Quarter Century of Youth Activity Participation: Inequalities by Race, Class, Gender and Age?"}. \textit{Journal of Youth and Adolescence} 47(6): 1299-1316.
+\item[\textbf{2018}] Meier, Ann, Ben Hartmann\textsuperscript{+}, and \textbf{Ryan Larson}.  \href{https://ryanplarson.github.io/personal_site/pubs/meier_etal_18.pdf}{``A Quarter Century of Youth Activity Participation: Inequalities by Race, Class, Gender and Age?"}. \textit{Journal of Youth and Adolescence} 47(6): 1299-1316.
 
-\item \textbf{Larson, Ryan P.} and Andrew Lindner. 2018. \href{https://ryanplarson.github.io/personal_site/pubs/larson_lindner_18.pdf}{``Professionalization Through Attrition?: An Event History Analysis of Mortalities in Citizen Journalism."}  \textit{Information, Communication, and Society} 21(5): 746-760.
+\item \textbf{Larson, Ryan P.} and Andrew Lindner. \href{https://ryanplarson.github.io/personal_site/pubs/larson_lindner_18.pdf}{``Professionalization Through Attrition?: An Event History Analysis of Mortalities in Citizen Journalism."}  \textit{Information, Communication, and Society} 21(5): 746-760.
 
-\item Lindner, Andrew and \textbf{Ryan P. Larson}. 2017. \href{https://ryanplarson.github.io/personal_site/pubs/lindner_larson_17.pdf}{``The Expansion and Contraction of the Journalistic Field and American Online Citizen Journalism, 2000-2012"}. \textit{Poetics} 64: 40-52.
+\item[\textbf{2017}] Lindner, Andrew and \textbf{Ryan P. Larson}. \href{https://ryanplarson.github.io/personal_site/pubs/lindner_larson_17.pdf}{``The Expansion and Contraction of the Journalistic Field and American Online Citizen Journalism, 2000-2012"}. \textit{Poetics} 64: 40-52.
 
-\item Hartmann, Doug, Paul Croll, \textbf{Ryan Larson}, Joseph Gerteis, and  Alex Manning. 2017. \href{https://ryanplarson.github.io/personal_site/pubs/hartmann_etal_17.pdf}{``Colorblindness as Identity:  Key Determinants, Relations to Ideology, and Implications for Attitudes about Race and Policy"}. \textit{Sociological Perspectives} 60(5): 866-888.
+\item Hartmann, Doug, Paul Croll, \textbf{Ryan Larson}, Joseph Gerteis, and  Alex Manning. \href{https://ryanplarson.github.io/personal_site/pubs/hartmann_etal_17.pdf}{``Colorblindness as Identity:  Key Determinants, Relations to Ideology, and Implications for Attitudes about Race and Policy"}. \textit{Sociological Perspectives} 60(5): 866-888.
 
-\item Hawkins, Daniel, Andrew Lindner, \textbf{Ryan Larson}, and Johnathan Santos. 2015. \href{https://ryanplarson.github.io/personal_site/pubs/hawkins_etal_15.pdf}{``Overrating Bruins, Underrating Badgers: Media, Prestige, and College Basketball Rankings."} \textit{Journal of Sports Management and Commercialization} 6(3): 11-26.
+\item[\textbf{2015}] Hawkins, Daniel, Andrew Lindner, \textbf{Ryan Larson}, and Johnathan Santos. \href{https://ryanplarson.github.io/personal_site/pubs/hawkins_etal_15.pdf}{``Overrating Bruins, Underrating Badgers: Media, Prestige, and College Basketball Rankings."} \textit{Journal of Sports Management and Commercialization} 6(3): 11-26.
 
-\end{itemize}
+\end{publist}
 
 \subsection*{Book Chapters}
 
-\begin{itemize}
+\begin{publist}
 
-\item Christopher Uggen, \textbf{Ryan Larson}, Sarah Shannon, Robert Stewart, and Caleigh Lueder\textsuperscript{+}. 2023. \href{https://ryanplarson.github.io/personal_site/pubs/uggen_etal_23.pdf}{``The Denial of Voting Rights to People with Criminal Records."} \textit{Social Problems in an Age of Mass Incarceration}. Edited by Kristen M. Budd, David Lane, Glenn Muschert, and Jason Smith. Society for the Study of Social Problems (SSSP).
+\item[\textbf{2023}] Christopher Uggen, \textbf{Ryan Larson}, Sarah Shannon, Robert Stewart, and Caleigh Lueder\textsuperscript{+}. \href{https://ryanplarson.github.io/personal_site/pubs/uggen_etal_23.pdf}{``The Denial of Voting Rights to People with Criminal Records."} \textit{Social Problems in an Age of Mass Incarceration}. Edited by Kristen M. Budd, David Lane, Glenn Muschert, and Jason Smith. Society for the Study of Social Problems (SSSP).
 
-\item \textbf{Larson, Ryan P}. 2020. \href{https://ryanplarson.github.io/personal_site/pubs/larson_19.pdf}{``Felon Disenfranchisement."} \textit{Voting and Political Representation in America: Issues and Trends}, edited by Mark P. Jones. Santa Barbara, CA: ABC-CLIO.
+\item[\textbf{2020}] \textbf{Larson, Ryan P}. \href{https://ryanplarson.github.io/personal_site/pubs/larson_19.pdf}{``Felon Disenfranchisement."} \textit{Voting and Political Representation in America: Issues and Trends}, edited by Mark P. Jones. Santa Barbara, CA: ABC-CLIO.
 
-\item Lindner, Andrew, and \textbf{Ryan P. Larson}. 2018. \href{https://ryanplarson.github.io/personal_site/pubs/lindner_larson_18.pdf}{``Regression Analysis."} \textit{Encyclopedia of Sociology}, edited by George Ritzer. Oxford: Wiley-Blackwell.
+\item[\textbf{2018}] Lindner, Andrew, and \textbf{Ryan P. Larson}. \href{https://ryanplarson.github.io/personal_site/pubs/lindner_larson_18.pdf}{``Regression Analysis."} \textit{Encyclopedia of Sociology}, edited by George Ritzer. Oxford: Wiley-Blackwell.
 
-\item \textbf{Larson, Ryan P.} and Chris Uggen. 2017. \href{https://ryanplarson.github.io/personal_site/pubs/uggen_larson_17.pdf}{``Felon Disenfranchisement."} \textit{Encyclopedia of Corrections}, edited by Kent R. Kerley. Oxford: Wiley-Blackwell.
+\item[\textbf{2017}] \textbf{Larson, Ryan P.} and Chris Uggen. \href{https://ryanplarson.github.io/personal_site/pubs/uggen_larson_17.pdf}{``Felon Disenfranchisement."} \textit{Encyclopedia of Corrections}, edited by Kent R. Kerley. Oxford: Wiley-Blackwell.
 
-\end{itemize}
+\end{publist}
 
 
 \subsection*{Technical Reports and Other Writing}
 
-\begin{itemize}
+\begin{publist}
 
-\item Uggen, Christopher, \textbf{Ryan Larson}, Sarah Shannon, Robert Stewart, and Molly Hauf\textsuperscript{+}.  2024. ``Locked Out 2024: Estimates of People Denied Voting Rights Due to a Felony Conviction." Forthcoming from \textit{The Sentencing Project}.
+\item[\textbf{2024}] Uggen, Christopher, \textbf{Ryan Larson}, Sarah Shannon, Robert Stewart, and Molly Hauf\textsuperscript{+}. ``Locked Out 2024: Estimates of People Denied Voting Rights Due to a Felony Conviction." Forthcoming from \textit{The Sentencing Project}.
 
-\item Remington, Katie, \textbf{Ryan Larson}, and Molly Hauf\textsuperscript{+}. 2023. ``The Status Quo of Financial-Based Driver's License Suspensions in Minnesota." Forthcoming from the \textit{Minnesota Justice Research Center}.
+\item[\textbf{2023}] Remington, Katie, \textbf{Ryan Larson}, and Molly Hauf\textsuperscript{+}. ``The Status Quo of Financial-Based Driver's License Suspensions in Minnesota." Forthcoming from the \textit{Minnesota Justice Research Center}.
 
-\item Uggen, Christopher, \textbf{Ryan Larson}, Sarah Shannon, and Robert Stewart.  2022. \href{https://www.sentencingproject.org/app/uploads/2024/02/Locked-Out-2022-Estimates-of-People-Denied-Voting.pdf}{``Locked Out 2022: Estimates of People Denied Voting Rights Due to a Felony Conviction."} Washington, D.C.: The Sentencing Project.
+\item[\textbf{2022}] Uggen, Christopher, \textbf{Ryan Larson}, Sarah Shannon, and Robert Stewart. \href{https://www.sentencingproject.org/app/uploads/2024/02/Locked-Out-2022-Estimates-of-People-Denied-Voting.pdf}{``Locked Out 2022: Estimates of People Denied Voting Rights Due to a Felony Conviction."} Washington, D.C.: The Sentencing Project.
 \begin{itemize}
 \item Media:  \href{https://www.npr.org/2022/10/25/1130622918/felon-voting-state-laws-disenfranchisement-rates}{\textit{National Public Radio}}, \href{https://www.independent.co.uk/news/world/americas/us-politics/felony-voting-rights-florida-law-b2210267.html}{\textit{The Independent}}, \href{https://thehill.com/homenews/campaign/3703486-4-6-million-ineligible-to-vote-due-to-felony-convictions/}{\textit{The Hill}}, \href{https://www.themarshallproject.org/2022/11/04/florida-s-voter-fraud-arrests-are-scaring-away-formerly-incarcerated-voters}{\textit{The Marshall Project}}, \href{https://www.washingtoninformer.com/locked-out-millions-of-voters-are-disenfranchised-ahead-of-midterm-elections/}{\textit{The Washington Informer}}, \href{https://www.nationofchange.org/2022/10/28/the-sentencing-project-reports-4-6-million-americans-barred-from-voting-in-2022-midterms-because-of-felony-conviction/}{\textit{Nation of Change}}, \href{https://sacobserver.com/2022/10/locked-out-millions-of-voters-are-disenfranchised-ahead-of-midterm-elections/}{\textit{The Sacramento Observer}}, \href{https://www.davisvanguard.org/2022/10/report-no-voting-rights-for-4-6-million-americans-with-felony-convictions/}{\textit{The Davis Vanguard}}, \href{https://daily.jstor.org/voting-rights-for-people-convicted-of-felonies/}{\textit{JSTOR Daily}}, \href{https://www.newsweek.com/millions-americans-will-left-behind-upcoming-midterms-opinion-1756177}{\textit{Newsweek}}, \href{https://tntribune.com/locked-out-millions-of-voters-are-disenfranchised-ahead-of-midterm-elections/}{\textit{The Tennessee Tribune}}, \href{https://www.propublica.org/article/tennessee-black-voters-disenfranchised}{\textit{ProPublica}}, \href{https://communityjournal.net/locked-out-millions-of-voters-are-disenfranchised-ahead-of-midterm-elections/}{\textit{Milwaukee Community Journal}},  \href{https://www.abqjournal.com/2546427/new-report-shines-light-on-17k-new-mexicans-not-allowed-to-vote.html}{\textit{Albuquerque Journal}}, \href{https://www.buzzfeednews.com/article/skbaer/florida-felons-voter-fraud-disenfranchisement}{\textit{Buzzfeed News}},  \href{https://wpln.org/post/hundreds-of-thousands-of-tennesseans-cant-vote-because-of-a-felony-conviction-they-are-challenging-state-law-to-have-their-voices-heard/}{\textit{WPLN News}}, \href{https://sourcenm.com/2022/10/27/over-17000-new-mexicans-barred-from-voting-in-the-midterms-report-shows/}{\textit{Source NM}}
 \end{itemize}
 
-\item Uggen, Christopher, \textbf{Ryan Larson}, Sarah Shannon, and Arleth Pulido-Nava\textsuperscript{+}. 2020. \href{https://www.sentencingproject.org/publications/locked-out-2020-estimates-of-people-denied-voting-rights-due-to-a-felony-conviction/}{``Locked Out 2020: Estimates of People Denied Voting Rights Due to a Felony Conviction."} Washington, D.C.: The Sentencing Project.
+\item[\textbf{2020}] Uggen, Christopher, \textbf{Ryan Larson}, Sarah Shannon, and Arleth Pulido-Nava\textsuperscript{+}. \href{https://www.sentencingproject.org/publications/locked-out-2020-estimates-of-people-denied-voting-rights-due-to-a-felony-conviction/}{``Locked Out 2020: Estimates of People Denied Voting Rights Due to a Felony Conviction."} Washington, D.C.: The Sentencing Project.
 \begin{itemize}
 \item Media: \href{https://www.nytimes.com/live/2020/10/18/us/trump-vs-biden}{\textit{The New York Times}}, \href{https://www.vox.com/2020/10/14/21515850/voting-rights-sentencing-project-felon-disenfranchisement}{\textit{Vox}}, \href{https://www.cnn.com/2020/10/15/us/felony-convictions-voting-sentencing-project-study/index.html}{\textit{CNN}}, \href{https://www.buzzfeednews.com/article/skbaer/millions-cant-vote-2020-election-felony-convictions}{\textit{Buzzfeed}},  \href{https://apnews.com/article/election-2020-race-and-ethnicity-voting-rights-elections-tennessee-1467837105617bfd351b7b9969dc1683}{\textit{The Associated Press}}, \href{https://thehill.com/opinion/campaign/527510-thousands-of-people-with-felony-convictions-wont-be-able-to-vote-in-ga-run}{\textit{The Hill}}, \href{https://www.forbes.com/sites/joewalsh/2020/10/14/over-5-million-americans-wont-be-able-to-vote-next-month-because-of-criminal-records/?sh=3d0984982fc5}{\textit{Forbes}}
 \end{itemize}
 
-\item Uggen, Christopher and \textbf{Ryan P. Larson}. 2017.  \href{https://ryanplarson.github.io/personal_site/pubs/uggen_larson_contexts_17.pdf}{``Is The Public Getting Smarter on Crime?"} \textit{Contexts Fall 2017}.
+\item[\textbf{2017}] Uggen, Christopher and \textbf{Ryan P. Larson}. \href{https://ryanplarson.github.io/personal_site/pubs/uggen_larson_contexts_17.pdf}{``Is The Public Getting Smarter on Crime?"} \textit{Contexts Fall 2017}.
 
-\item Uggen, Christopher, \textbf{Ryan Larson}, and Sarah Shannon. 2016. \href{http://www.sentencingproject.org/wp-content/uploads/2016/10/6-Million-Lost-Voters.pdf}{``6 Million Lost Voters: State-Level Estimates of Felony Disenfranchisement, 2016."} Washington, D.C.: The Sentencing Project.
+\item[\textbf{2016}] Uggen, Christopher, \textbf{Ryan Larson}, and Sarah Shannon. \href{http://www.sentencingproject.org/wp-content/uploads/2016/10/6-Million-Lost-Voters.pdf}{``6 Million Lost Voters: State-Level Estimates of Felony Disenfranchisement, 2016."} Washington, D.C.: The Sentencing Project.
 \begin{itemize}
 \item Winner of the 2018 ASA Section on Sociological Practice and Public Sociology's Publication Award
 \item Selected Media Coverage: \href{http://www.nytimes.com/interactive/2016/10/06/us/unequal-effect-of-laws-that-block-felons-from-voting.html?_r=0}{\textit{The New York Times}}, \href{https://www.washingtonpost.com/news/powerpost/wp/2016/10/07/6-million-citizens-including-1-in-13-african-americans-are-blocked-from-voting-because-of-felonies/}{\textit{The Washington Post}}, \href{http://www.huffingtonpost.com/harlan-green/trump-the-terrible-demago_b_12392904.html}{\textit{The Huffington Post}}, \href{http://www.vogue.com/13489654/2016-presidential-election-felony-disenfranchisement/}{\textit{Vogue}}, \href{http://www.rollingstone.com/politics/features/six-million-adults-who-wont-influence-this-election-w443693}{\textit{Rolling Stone}}, \href{https://www.yahoo.com/news/more-6-million-americans-t-vote-election-105300558.html}{\textit{Yahoo! News}}, \href{https://www.youtube.com/watch?time_continue=2&v=NpPyLcQ2vdI}{\textit{Last Week Tonight with John Oliver}}
 \end{itemize}
 
-\item Lindner, Andrew and \textbf{Ryan P. Larson}. 2016. \href{http://journals.sagepub.com/doi/full/10.1177/1536504216685127}{``The Year English Soccer Wasn't For Sale."} \textit{Contexts Fall 2016}. 
+\item[\textbf{2016}] Lindner, Andrew and \textbf{Ryan P. Larson}. \href{http://journals.sagepub.com/doi/full/10.1177/1536504216685127}{``The Year English Soccer Wasn't For Sale."} \textit{Contexts Fall 2016}. 
 
-\end{itemize}
+\end{publist}
 
 
-\section*{\textbf{Works in Progress}}
+\section*{\textbf{Works in Progress} \scriptsize{\textsuperscript{+} denotes student co-author}}
 
 \subsection*{Manuscripts Under Review}
-\begin{itemize}
+\begin{publist}
 
 \item \textbf{Ryan P. Larson}. ``The Causal Packaging Effects of Punishment". Under review at \textit{Journal of Quantitative Criminology}.
 
 \item Christopher Uggen, Carsyn Schneider\textsuperscript{+}, \textbf{Ryan Larson}, and Robert Stewart. ``Democratic Expansion? Restoring the Vote to People on Probation and Parole in the United States, 1964-2023." Under review at \textit{Criminology}.
 
 
-\end{itemize}
+\end{publist}
 
 \subsection*{Working Papers}
-\begin{itemize}
+\begin{publist}
 
 \item \textbf{Ryan P. Larson}, Robert Stewart, Veronica Horowitz, and Christopher Uggen. ``The Racialized Packaging of Punishment: An Instrumental Variables Approach to Confinement, Surveillance, and Financial Extraction."
 
 \item \textbf{Ryan P. Larson}. ``Ban-the-Box, Employment, and Crime". 
 
-\item Uggen, Christopher, \textbf{Ryan Larson}, Sarah Shannon, Robert Stewart, and Molly Hauf\textsuperscript{+}. ``Locked Out 2024: State-Level Estimates of Felony Disenfranchisement."
+\item Jillian Peterson, James Densley, \textbf{Ryan Larson}, Jaycee Manchi\textsuperscript{+}, N. Jeanie Santaularia, Christopher Uggen, and Christopher E. Robertson\textsuperscript{+}. "The Changing Nature of Homicide in the Twin Cities Before, During, and After the Pandemic and the Murder of George Floyd."
+
 \item Kennedy, Ian, Kate K. O’Neill, Alexes Harris, \textbf{Ryan Larson}, and Sarah Shannon. “A National Perspective on Debtors’ Blocks: How Racialized LFO Burden Disrupts Neighborhood Success”.
+
 \item \textbf{Ryan P. Larson}. ``Punishment, Neighborhood Structure, and Crime".
-\item \textbf{Ryan Larson}, Molly Hauf\textsuperscript{+}, Christopher Uggen, Sarah Shannon, and Robert Stewart. ``Spatiotemporal Variation in Felony Disenfranchisement by Gender."
+
+%\item \textbf{Ryan Larson}, Molly Hauf\textsuperscript{+}, Christopher Uggen, Sarah Shannon, and Robert Stewart. ``Spatiotemporal Variation in Felony Disenfranchisement by Gender."
+
 \item \textbf{Ryan P. Larson}, Veronica Horowitz, Robert Stewart, and Christopher Uggen. ``The Criminogenic Essence of Dual Debt."
+
 \item \textbf{Larson, Ryan}, Jeanie Santaularia, Chris Robertson\textsuperscript{+}, Ryan LeCount, and Chris Uggen.  ``Patterns of Support in Minneapolis’ Police Charter Amendment." 
+
 %\item Anna DalCorvito, \textbf{Ryan Larson}, Chris Uggen.  ``Marginalization and Youth Decarceration in the United States, 2000-2018."
 %\item \textbf{Ryan Larson}, Christopher Levesque, Chris Uggen, and Linus Chan. ``A Competing Risk Analysis of Immigrant Detention and Case Outcomes".
-\item \textbf{Ryan Larson},  Chris Uggen, Rob Stewart, and Veronica Horowitz. ``The Effects of Monetary Sanctions on Recidivism: Evidence from Quasi-Random Judge Assignment in Minnesota."
+%\item \textbf{Ryan Larson},  Chris Uggen, Rob Stewart, and Veronica Horowitz. ``The Effects of Monetary Sanctions on Recidivism: Evidence from Quasi-Random Judge Assignment in Minnesota."
 %\item Kate O'Neill, \textbf{Ryan Larson}, Chris Uggen, Alexes Harris, Tyler Smith, Frank Edwards, Rob Stewart. ``The Socio-Cultural Effects of Race on Monetary Sanctions: A Replication and Extention."
 %\item Doug Hartmann and \textbf{Ryan Larson}. ``What is it about Sport? Rethinking Data and Measurement in the Analysis of Participation Effects."
+
 \item \textbf{Ryan P. Larson}, Veronica Horowitz, Robert Stewart, and Christopher Uggen. ``Multiplicative Debt: Legal Financial Obligations and Child Support Arrears."
 
-\item Uggen, C., \textbf{Larson, R.}, Curry, C., \& Reynoso, N. O. 2022. ``How housing and education interventions shape justice system involvement: Evidence from Minnesota."
+%\item Uggen, C., \textbf{Larson, R.}, Curry, C., \& Reynoso, N. O. 2022. ``How housing and education interventions shape justice system involvement: Evidence from Minnesota."
 
 
-\end{itemize}
+\end{publist}
 
 \section*{\textbf{Grants, Awards, \& Honors}}
 
-\begin{itemize}
+\begin{publist}
 
-\item 2024 Fund for a Safer Future. \textit{Structural Racism, Police Shootings, and Public Health}. [Co-PI with N. Jeanie Santaularia]. Under Review.  
+\item[\textbf{2024}] Fund for a Safer Future. \textit{Structural Racism, Police Shootings, and Public Health}. [Co-PI with N. Jeanie Santaularia]. Under Review.  
 
-\item 2024-2025 Arnold Ventures. "Research Support for Minnesota Sentencing Guidelines Comission: Comprehensive Review of Minnesota's Sentencing System." [Co-I with Robert Stewart and Co-PI Christopher Uggen]. \$996,137. 
+\item[\textbf{2024-2025}] Arnold Ventures. "Research Support for Minnesota Sentencing Guidelines Comission: Comprehensive Review of Minnesota's Sentencing System." [Co-I with Robert Stewart and Co-PI Christopher Uggen]. \$996,137. 
 
-\item 2024 The Sentencing Project. “Felon Disenfranchisement Research Support.” [Co-PI with Christopher Uggen, Sarah Shannon, and Robert Stewart]. 10/1/23-10/1/24. \$25,000.
+\item[\textbf{2024}] The Sentencing Project. “Felon Disenfranchisement Research Support.” [Co-PI with Christopher Uggen, Sarah Shannon, and Robert Stewart]. 10/1/23-10/1/24. \$25,000.
 
-\item 2023 Hamline University Ridgway Summer Collaborative Undergraduate Research (SCUR) Award w/ Molly Hauf (\$6,000).
+\item[\textbf{2023}] Hamline University Ridgway Summer Collaborative Undergraduate Research (SCUR) Award w/ Molly Hauf (\$6,000).
 
-\item 2022 The Sentencing Project. “Felon Disenfranchisement Research Support.” [co-PI with Christopher Uggen, Sarah Shannon, and Robert Stewart]. 10/1/21-10/1/22. \$8,000.
+\item[\textbf{2022}]The Sentencing Project. “Felon Disenfranchisement Research Support.” [co-PI with Christopher Uggen, Sarah Shannon, and Robert Stewart]. 10/1/21-10/1/22. \$8,000.
 
-\item 2021  Laura and John Arnold Foundation. ``\textit{Dual Debt: Understanding the Relationship between Legal Financial Obligations and Child Support Debt.}" [Co-Is with Robert Stewart, Veronica Horowitz, Kimberly Spencer-Suarez, Frank Edwards, and PI Chris Uggen]. Part of ``\textit{Monetary Sanctions Collective: Understanding the Broader Reach and Burden of Monetary Sanctions.}" 10/1/21-9/30/24. \$1,745,816 (\$486,025 on Dual Debt project).
+\item[\textbf{2021-2024}]  Laura and John Arnold Foundation. ``\textit{Dual Debt: Understanding the Relationship between Legal Financial Obligations and Child Support Debt.}" [Co-Is with Robert Stewart, Veronica Horowitz, Kimberly Spencer-Suarez, Frank Edwards, and PI Chris Uggen]. Part of ``\textit{Monetary Sanctions Collective: Understanding the Broader Reach and Burden of Monetary Sanctions.}" 10/1/21-9/30/24. \$1,745,816 (\$486,025 on Dual Debt project).
 
-\item 2021 Professional Development Award. Department of Sociology, University of Minnesota. 
+\item[\textbf{2021}] Professional Development Award. Department of Sociology, University of Minnesota. 
 
-\item 2020 The Sentencing Project. “Felon Disenfranchisement Research Support.” [co-PI with Christopher Uggen, and Sarah Shannon]. 10/1/19-10/1/20. \$8,000.
+\item[\textbf{2020}] The Sentencing Project. “Felon Disenfranchisement Research Support.” [co-PI with Christopher Uggen, and Sarah Shannon]. 10/1/19-10/1/20. \$8,000.
 
-\item 2018 Professional Development Award. Department of Sociology, University of Minnesota. 
-\item 2018 ASA Section on Sociological Practice and Public Sociology Publication Award
-\item 2017 Professional Development Award. Department of Sociology, University of Minnesota. 
-\item 2016 The Sentencing Project. “Felon Disenfranchisement Research Support.” [co-PI with Christopher Uggen, and Sarah Shannon]. 10/1/15-10/1/16. \$8,000.
-\item 2016 American Mosaic Project (AMP) Graduate Research Fellowship (\$5000). Department of Sociology, University of Minnesota
-\item 2016 Professional Development Award. Department of Sociology, University of Minnesota. 
-\item 2015 American Mosaic Project (AMP) Graduate Research Fellowship (\$5000). Department of Sociology, University of Minnesota. 
-\item 2015 National Science Foundation Graduate Research Fellowship Honorable Mention
-\item 2015 Professional Development Award. Department of Sociology, University of Minnesota. 
-\item 2014 Farden Memorial Prize in Sociology Winner. Concordia College Department of Sociology and Social Work, Concordia College
-\item 2014 Midwest Sociological Society Student Paper Competition Second Place Winner,  ``Fear and Loathing in Minnesota: A Multilevel Analysis of Factors Influencing Crime Fears"
-\item 2013 Student Scholar Grant Recipient, Concordia College (\$500)
-\item 2010 Presidential Scholarship Recipient, Concordia College
+\item[\textbf{2018}] Professional Development Award. Department of Sociology, University of Minnesota. 
+\item[\textbf{2017}] Professional Development Award. Department of Sociology, University of Minnesota. 
+\item[\textbf{2016}] The Sentencing Project. “Felon Disenfranchisement Research Support.” [co-PI with Christopher Uggen, and Sarah Shannon]. 10/1/15-10/1/16. \$8,000.
+\item American Mosaic Project (AMP) Graduate Research Fellowship (\$5000). Department of Sociology, University of Minnesota
+\item Professional Development Award. Department of Sociology, University of Minnesota. 
+\item[\textbf{2015}] American Mosaic Project (AMP) Graduate Research Fellowship (\$5000). Department of Sociology, University of Minnesota. 
+\item National Science Foundation Graduate Research Fellowship Honorable Mention
+\item Professional Development Award. Department of Sociology, University of Minnesota. 
+\item[\textbf{2014}]Farden Memorial Prize in Sociology Winner. Concordia College Department of Sociology and Social Work, Concordia College
+\item Midwest Sociological Society Student Paper Competition Second Place Winner,  ``Fear and Loathing in Minnesota: A Multilevel Analysis of Factors Influencing Crime Fears"
+\item[\textbf{2013}] Student Scholar Grant Recipient, Concordia College (\$500)
+\item[\textbf{2010}] Presidential Scholarship Recipient, Concordia College
 
-\end{itemize}
-
+\end{publist}
 
 
-\section*{\textbf{Academic Presentations}} \textsuperscript{+} = student co-presenter
-\begin{itemize}
 
-\item \textbf{Larson, Ryan}. 2024. ``Crime Etiology, Punishment, and Local Crime Trends." Invited talk for the October 2024 Hennepin County District Judges Education Committee.  
+\section*{\textbf{Academic Presentations} \scriptsize{\textsuperscript{+} denotes student co-presenter}} 
+
+\begin{publist}
+
+\item[\textbf{2024}] Maryam Tanveer\textsuperscript{+}, \textbf{Ryan Larson}, N. Jeanie Santaularia, Christopher Robertson\textsuperscript{+}, and Christopher Uggen. ``Temporal Exposure to Police-Involved Shootings and the Incidence of Mental Health Conditions in Minneapolis, Minnesota." Accepted for presentation at the 2024 National Research Conference for the Prevention of Firearm-Related Harms, Seattle, WA. 
+
+\item \textbf{Larson, Ryan}. ``Crime Etiology, Punishment, and Local Crime Trends." Invited talk for the October 2024 Hennepin County District Judges Education Committee.  
 
 \item Jillian Peterson, James Densley, \textbf{Ryan Larson}, Jaycee Manchi\textsuperscript{+}, N. Jeanie Santaularia, Christopher Uggen, and Christopher E. Robertson\textsuperscript{+}. "The Changing Nature of Homicide in the Twin Cities Before, During, and After the Pandemic and the Murder of George Floyd." Accepted for presentation at the 2024 American Society of Criminology Annual Conference, San Francisco, CA. 
 
-\item \textbf{Larson, Ryan}. 2024. ``Punishment, Neighborhood Structure, and Crime." Accepted for presentation at the 2024 American Society of Criminology Annual Conference, San Francisco, CA. 
+\item \textbf{Larson, Ryan}. ``Punishment, Neighborhood Structure, and Crime." Accepted for presentation at the 2024 American Society of Criminology Annual Conference, San Francisco, CA. 
 
-\item Christopher Uggen, \textbf{Ryan Larson}, Robert Stewart, Frank Edwards, Veronica Horowitz, and Hannah Schwendeman\textsuperscript{+}. 2024. ``How Monetary Sanctions and Child Support Affect Children's Educational Outcomes and Residential Stability." Accepted for presentation at the 2024 American Society of Criminology Annual Conference, San Francisco, CA. 
+\item Christopher Uggen, \textbf{Ryan Larson}, Robert Stewart, Frank Edwards, Veronica Horowitz, and Hannah Schwendeman\textsuperscript{+}. ``How Monetary Sanctions and Child Support Affect Children's Educational Outcomes and Residential Stability." Accepted for presentation at the 2024 American Society of Criminology Annual Conference, San Francisco, CA. 
 
-\item Veronica Horowitz, Makaela Brass\textsuperscript{+}, Hannah Schwendeman\textsuperscript{+}, Rob Stewart, \textbf{Ryan Larson}, and Christopher Uggen. 2024. ``Tell Her To Go Get a Job!': Gendered Attitudes Among Men with Dual Debt." Accepted for presentation at the 2024 American Society of Criminology Annual Conference, San Francisco, CA. 
+\item Veronica Horowitz, Makaela Brass\textsuperscript{+}, Hannah Schwendeman\textsuperscript{+}, Rob Stewart, \textbf{Ryan Larson}, and Christopher Uggen. ``Tell Her To Go Get a Job!': Gendered Attitudes Among Men with Dual Debt." Accepted for presentation at the 2024 American Society of Criminology Annual Conference, San Francisco, CA. 
 
-\item Kennedy, Ian, Kate K. O’Neill, Alexes Harris, \textbf{Ryan Larson}, and Sarah Shannon. 2024. ``A National Perspective on Debtors’ Blocks: How Racialized LFO Burden Disrupts Neighborhood Success." Presented at the 2024 American Sociological Association Annual Conference, Montreal, CA. 
+\item Kennedy, Ian, Kate K. O’Neill, Alexes Harris, \textbf{Ryan Larson}, and Sarah Shannon. ``A National Perspective on Debtors’ Blocks: How Racialized LFO Burden Disrupts Neighborhood Success." Presented at the 2024 American Sociological Association Annual Conference, Montreal, CA. 
 
-\item Christopher Uggen, Carsyn Schneider\textsuperscript{+}, \textbf{Ryan Larson}, and Robert Stewart. 2024. ``Democratic Expansion? Restoring the Vote to People on Probation and Parole in the United States, 1964-2023." Presented at the 2024 American Sociological Association Annual Conference, Montreal, CA. 
+\item Christopher Uggen, Carsyn Schneider\textsuperscript{+}, \textbf{Ryan Larson}, and Robert Stewart. ``Democratic Expansion? Restoring the Vote to People on Probation and Parole in the United States, 1964-2023." Presented at the 2024 American Sociological Association Annual Conference, Montreal, CA. 
 
-\item Molly Hauf\textsuperscript{+} and \textbf{Ryan Larson}. 2024. ``Locked Out, Broken Down: Gender-Specific Estimates of State Variation in Felon Disenfranchisement." Presented at the Minnesota Private College Council's \textit{Scholars at the Capitol} Event, St. Paul, MN. 
+\item Molly Hauf\textsuperscript{+} and \textbf{Ryan Larson}. ``Locked Out, Broken Down: Gender-Specific Estimates of State Variation in Felon Disenfranchisement." Presented at the Minnesota Private College Council's \textit{Scholars at the Capitol} Event, St. Paul, MN. 
 
-\item Molly Hauf\textsuperscript{+} and \textbf{Ryan Larson}. 2024. ``Locked Out, Broken Down: Gender-Specific Estimates of State Variation in Felon Disenfranchisement." Presented at the 2024 National Conference for Undergraduate Research, Long Beach, CA. 
+\item Molly Hauf\textsuperscript{+} and \textbf{Ryan Larson}. ``Locked Out, Broken Down: Gender-Specific Estimates of State Variation in Felon Disenfranchisement." Presented at the 2024 National Conference for Undergraduate Research, Long Beach, CA. 
 
-\item Christopher Uggen, Carsyn Schneider\textsuperscript{+}, \textbf{Ryan Larson}, Robert Stewart. 2024. ``Democratic Expansion? Restoring the Vote to People on Probation and Parole in the United States, 1964-2023". Presented at the 2024 Law \& Society Association Annual Conference, Denver, CO. 
+\item Christopher Uggen, Carsyn Schneider\textsuperscript{+}, \textbf{Ryan Larson}, Robert Stewart. ``Democratic Expansion? Restoring the Vote to People on Probation and Parole in the United States, 1964-2023". Presented at the 2024 Law \& Society Association Annual Conference, Denver, CO. 
 
 \item Schwendeman, Hannah, Veronica L. Horowitz, Robert Stewart, \textbf{Ryan Larson}, Frank Edwards, and Christopher Uggen. 2024.  ``Theorizing Legal Cynicism, Legal Estrangement, and System Avoidance: Dual Debt in the Child Support and Criminal Legal Systems." Presented at the 2024 Law \& Society Association Annual Conference, Denver, CO. 
 
-\item Molly Hauf\textsuperscript{+} and \textbf{Ryan Larson}. 2024. ``Locked Out, Broken Down: Gender-Specific Estimates of State Variation in Felon Disenfranchisement. Presented at the Midwest Sociological Society 2024 Conference, Des Moines, IA. 
+\item Molly Hauf\textsuperscript{+} and \textbf{Ryan Larson}. ``Locked Out, Broken Down: Gender-Specific Estimates of State Variation in Felon Disenfranchisement. Presented at the Midwest Sociological Society 2024 Conference, Des Moines, IA. 
 
-\item Molly Hauf\textsuperscript{+} and \textbf{Ryan Larson}. 2024. ``Locked Out, Broken Down: Gender-Specific Estimates of State Variation in Felon Disenfranchisement. Presented at the Hamline Interdisciplinary Student Research \& Creative Inquiry Symposium, St. Paul, MN. 
+\item Molly Hauf\textsuperscript{+} and \textbf{Ryan Larson}. ``Locked Out, Broken Down: Gender-Specific Estimates of State Variation in Felon Disenfranchisement. Presented at the Hamline Interdisciplinary Student Research \& Creative Inquiry Symposium, St. Paul, MN. 
 
-\item \textbf{Ryan P. Larson}, Christopher Robertson\textsuperscript{+}, and Kamisha Johnson. 2023. ``Tracing The Public Health Consequences of the Police Murder of George Floyd." Presented at the \textit{Minnesota Justice Research Center} 2023 Conference, Re-Imagining Justice: Centering Humanity Over Fear, Minneapolis, MN.   
+\item[\textbf{2023}] \textbf{Ryan P. Larson}, Christopher Robertson\textsuperscript{+}, and Kamisha Johnson. ``Tracing The Public Health Consequences of the Police Murder of George Floyd." Presented at the \textit{Minnesota Justice Research Center} 2023 Conference, Re-Imagining Justice: Centering Humanity Over Fear, Minneapolis, MN.   
 
-\item \textbf{Ryan P. Larson}, Veronica Horowitz, Robert Stewart, and Christopher Uggen. 2023. ``The Criminogenic Essence of Dual Debt." Presented at the American Society of Criminology Annual Meeting, Philadelphia, PA. 
+\item \textbf{Ryan P. Larson}, Veronica Horowitz, Robert Stewart, and Christopher Uggen. ``The Criminogenic Essence of Dual Debt." Presented at the American Society of Criminology Annual Meeting, Philadelphia, PA. 
 
-\item Schwendeman, Hannah, Veronica L. Horowitz, Robert Stewart, \textbf{Ryan Larson}, Frank Edwards, and Christopher Uggen. 2023. ``My Right Arm Should be ‘Debt’ and My Left Arm Should be ‘Felony’”:
+\item Schwendeman, Hannah, Veronica L. Horowitz, Robert Stewart, \textbf{Ryan Larson}, Frank Edwards, and Christopher Uggen. ``My Right Arm Should be ‘Debt’ and My Left Arm Should be ‘Felony’”:
 Dual Debt in the Child Support and Criminal Legal Systems". Presented at the American Society of Criminology Annual Meeting 2023, Philadelphia, PA. 
 
-\item \textbf{Ryan P. Larson}. 2023. ``Ban-the-Box, Employment, and Crime". Presented at the American Society of Criminology Annual Meeting 2023, Philadelphia, PA. 
+\item \textbf{Ryan P. Larson}. ``Ban-the-Box, Employment, and Crime". Presented at the American Society of Criminology Annual Meeting 2023, Philadelphia, PA. 
 
-\item Schwendeman, Hannah\textsuperscript{+}, Veronica L. Horowitz, Robert Stewart, \textbf{Ryan Larson}, Frank Edwards, and Christopher Uggen. 2023. ``My Right Arm Should be ‘Debt’ and My Left Arm Should be ‘Felony’”:
+\item Schwendeman, Hannah\textsuperscript{+}, Veronica L. Horowitz, Robert Stewart, \textbf{Ryan Larson}, Frank Edwards, and Christopher Uggen. ``My Right Arm Should be ‘Debt’ and My Left Arm Should be ‘Felony’”:
 Dual Debt in the Child Support and Criminal Legal Systems". Presented at the American Sociological Association Annual Meeting 2023, Philadelphia, PA. 
 
-\item N. Jeanie Santaularia, \textbf{Ryan Larson}, Christopher E. Robertson\textsuperscript{+}, Christopher Uggen. 2023. ``The Mental Health Consequences Before and After a Historic Police Killing in Minneapolis in Black and White Communities." Presented at the Society for Epidemiologic Research Annual Meeting 2023, Portland, OR.
+\item N. Jeanie Santaularia, \textbf{Ryan Larson}, Christopher E. Robertson\textsuperscript{+}, Christopher Uggen. ``The Mental Health Consequences Before and After a Historic Police Killing in Minneapolis in Black and White Communities." Presented at the Society for Epidemiologic Research Annual Meeting 2023, Portland, OR.
 
-\item \textbf{Larson, Ryan}. 2023. ``Punishment, Neighborhood Structure, and Crime." Presented at the 2023 Midwest Sociological Association Annual Meeting, Minneapolis, MN. 
+\item \textbf{Larson, Ryan}. ``Punishment, Neighborhood Structure, and Crime." Presented at the 2023 Midwest Sociological Association Annual Meeting, Minneapolis, MN. 
 
-\item \textbf{Larson, Ryan} and Ryan LeCount. 2023. ``Patterns of Support in Minneapolis’ Police Charter Amendment." Presented at the 2023 Midwest Sociological Association Annual Meeting, Minneapolis, MN. 
+\item \textbf{Larson, Ryan} and Ryan LeCount. ``Patterns of Support in Minneapolis’ Police Charter Amendment." Presented at the 2023 Midwest Sociological Association Annual Meeting, Minneapolis, MN. 
 
-\item Allison Lind\textsuperscript{+}, \textbf{Ryan Larson}, Susan Mason, and Christopher Uggen. 2023. ``A Spatio-Temporal Analysis of Carjackings and Neighborhood Disadvantage: Implications for Population Health." Poster presentation at the 2023 Population Association Annual Meeting, New Orleans, LA. 
+\item Allison Lind\textsuperscript{+}, \textbf{Ryan Larson}, Susan Mason, and Christopher Uggen. ``A Spatio-Temporal Analysis of Carjackings and Neighborhood Disadvantage: Implications for Population Health." Poster presentation at the 2023 Population Association Annual Meeting, New Orleans, LA. 
 
-\item Horowitz, Veronica, \textbf{Ryan Larson}, Robert Stewart, and Chris Uggen. 2022.  ``Monetary Sanctions Across 3 Generations." Presented at the 2022 American Sociological Association Annual Meeting, Los Angeles, CA. 
+\item[\textbf{2022}] Horowitz, Veronica, \textbf{Ryan Larson}, Robert Stewart, and Chris Uggen. ``Monetary Sanctions Across 3 Generations." Presented at the 2022 American Sociological Association Annual Meeting, Los Angeles, CA. 
 
-\item \textbf{Larson, Ryan}. 2021. ``The Causal Packaging Effects of Punishment." Presented at the American Society of Criminology Annual Meeting 2021, Chicago, IL. 
+\item[\textbf{2021}] \textbf{Larson, Ryan}. ``The Causal Packaging Effects of Punishment." Presented at the American Society of Criminology Annual Meeting 2021, Chicago, IL. 
 
-\item \textbf{Larson, Ryan}, Christopher Uggen, Robert Stewart, Veronica Horowitz. 2021. ``The Effects of Monetary Sanctions on Recidivism." Presented at the American Society of Criminology Annual Meeting 2021, Chicago, IL. 
+\item \textbf{Larson, Ryan}, Christopher Uggen, Robert Stewart, Veronica Horowitz. ``The Effects of Monetary Sanctions on Recidivism." Presented at the American Society of Criminology Annual Meeting 2021, Chicago, IL. 
 
-\item Anna DalCorvito, \textbf{Ryan Larson}, Chris Uggen. 2021. ``Marginalization and Youth Decarceration in the United States, 2000-2018." Presented at the American Society of Criminology Annual Meeting 2021, Chicago, IL. 
+\item Anna DalCorvito, \textbf{Ryan Larson}, Chris Uggen. ``Marginalization and Youth Decarceration in the United States, 2000-2018." Presented at the American Society of Criminology Annual Meeting 2021, Chicago, IL. 
 
-\item Horowitz, Veronica, \textbf{Ryan P Larson}, Robert Stewart, and Chris Uggen. 2021. ``Gender and the Intergenerational Exchange of Monetary Sanctions." Presented at the American Society of Criminology Annual Meeting 2021, Chicago, IL. 
+\item Horowitz, Veronica, \textbf{Ryan P Larson}, Robert Stewart, and Chris Uggen. ``Gender and the Intergenerational Exchange of Monetary Sanctions." Presented at the American Society of Criminology Annual Meeting 2021, Chicago, IL. 
 
-\item \textbf{Larson, Ryan}, Christopher Uggen, Robert Stewart, Veronica Horowitz. 2021. ``Race and the Packing of Punishment: A Instrumental Variables Approach to Extra-Legal Sentencing Effects." Presented at the 2021 American Sociological Association Annual Meeting, virtual meeting. 
+\item \textbf{Larson, Ryan}, Christopher Uggen, Robert Stewart, Veronica Horowitz. ``Race and the Packaging of Punishment: A Instrumental Variables Approach to Extra-Legal Sentencing Effects." Presented at the 2021 American Sociological Association Annual Meeting, virtual meeting. 
 
-\item \textbf{Ryan P. Larson}, Jeanie Santaularia, Christopher Uggen. 2020. ``Criminal Punishment, Child Abuse, and Violent Injury in Minnesota, 2010-2014." Accepted for presentation at the 2020 American Society of Criminology Annual Meeting, Washington, D.C., cancelled due to COVID-19.  
+\item[\textbf{2020}] \textbf{Ryan P. Larson}, Jeanie Santaularia, Christopher Uggen. ``Criminal Punishment, Child Abuse, and Violent Injury in Minnesota, 2010-2014." Accepted for presentation at the 2020 American Society of Criminology Annual Meeting, Washington, D.C., cancelled due to COVID-19.  
 
-\item \textbf{Larson, Ryan}, Christopher Uggen, Robert Stewart, Veronica Horowitz. 2020. ``The Racialized Packaging of Punishment: An Instrumental Variables Approach to Monetary Sanctions and Confinement." Accepted for presentation at the 2020 American Sociological Association Annual Meeting, San Francisco, cancelled due to COVID-19. 
-\item \textbf{Larson, Ryan}, Chris Uggen, Sarah Shannon, and Aaron Sojourner. 2020. ``Former Felons and the Decline in U.S. Labor Force Participation, 1980-2010." Accepted for presentation at the 2020 Population Association of America Annual Meeting, Washington D.C, cancelled due to COVID-19. 
-\item Spencer-Suarez, Kimberly, Robert Stewart, Veronica L. Horowitz, Emmi Obara, Frank Edwards, \textbf{Ryan Larson}, and Christopher Uggen. 2020. ``Dual Debtors: Navigating Child Support Arrears and Criminal Justice Debt." Society for Social Work and Research Annual Meetings, Washington, D.C.. January.
-\item \textbf{Larson, Ryan}, Robert Stewart, Veronica Horowitz, and Christopher Uggen. ``The Socio-Cultural Effects of Race and Indigeneity on Monetary Sanctions in Minnesota." Invited panel at the 2019 American Society of Criminology Annual Meeting, San Francisco, CA.
-\item \textbf{Larson, Ryan}, Chris Uggen, Sarah Shannon, and Aaron Sojourner. 2018. ``Former Felons and the Decline in U.S. Labor Force Participation, 1980-2010." Presented at the 2018 American Society of Criminology Annual Meeting, Atlanta, GA. 
-\item Horowitz, Veronica, \textbf{Ryan P. Larson}, Allison Nobles, Victoria Piehowski, and Josh Page.  2018. ``No Contact: The Origins and Trajectory of Domestic Abuse Law in Minnesota." Presented at the 2018 Midwestern Sociological Society Annual Meeting, Minneapolis, MN. 
-\item \textbf{Larson Ryan P.} and Doug Hartmann. 2018. ``Is Colorblindness Aspirational? Findings from a National Survey." Presented at the Midwestern Sociological Society Annual Meeting, Minneapolis, MN. 
-\item Hamilton, Amber, Doug Hartmann, and \textbf{Ryan P. Larson}. 2018. ``An Analysis of Racial Variation in Colorblind Racism." Presented at the Midwestern Sociological Society Annual Meeting, Minneapolis, MN. 
-\item Hartmann, Doug and \textbf{Ryan P. Larson}. 2017. ``What is it about Sport? Rethinking Data and Measurement in the Analysis of Participation Effects."  Presented at the North American Society for the Sociology of Sport Annual Conference, Windsor, Ontario, CA. 
-\item \textbf{Larson, Ryan} and Andrew Lindner. 2017. ``The Mortality of Citizen Journalism Sites: An Event History Analysis." Presented at the American Sociological Association Annual Meeting, Montreal, QC, CA.
-\item \textbf{Larson, Ryan} and Chris Uggen. 2016. ``A Competing Risk Analysis of Immigrant Detention and Case Outcomes." Presented at the American Society of Criminology Annual Meeting, New Orleans, LA. 
-\item \textbf{Larson, Ryan}. 2016. ``Mapping Youth Activities in the Twin-Cities Metro Area." Presented at the 2016 University of Minnesota Sociology Research Institute, Minneapolis, MN. 
-\item \textbf{Larson, Ryan}, Jacqui Frost, and Stephen Wulff. 2016. ``The Good, The Bad, and The Ugly: Syllabus Composition." Presented at the 2016 University of Minnesota Sociology Research Institute, Minneapolis, MN. 
-\item Hartmann, Doug, \textbf{Ryan Larson}, Paul Croll, Alex Manning,  and Joseph Gerteis. 2016. ``Colorblindness as Identity:  Key Determinants, Relations to Ideology, and Implications for Attitudes about Race and Policy". Presented at the Midwestern Sociological Society Annual Meeting, Chicago, IL. 
-\item Meier, Ann, Ben Hartmann, and \textbf{Ryan Larson}. 2016. ``25 Years of Youth Activity Participation: Inequalities by Race, Class, and Gender?". Presented at the Midwestern Sociological Society Annual Meeting, Chicago, IL. 
-\item Hawkins, Daniel, Andrew M. Lindner, and \textbf{Ryan Larson}. 2015. ``Overrating Bruins, Underrating Lobos: Media, Prestige, and College Basketball." Presented at The Sixth International Conference on Sport and Society, Toronto, Canada.
-\item \textbf{Larson, Ryan}. 2014. ``Fear and Loathing in Minnesota: A Multilevel Analysis of Factors Influencing Crime Fears." Presented at the Midwestern Sociological Society Annual Meeting, Omaha, NE.
-\item Lindner, Andrew, \textbf{Ryan Larson}, and John Stelter. 2014. ``The Rise and Fall of Citizen Journalism." Presented at the Midwestern Sociological Society Annual Meeting, Omaha, NE. 
-\item \textbf{Larson, Ryan}. 2014. ``Fear and Loathing in Minnesota: A Multilevel Analysis of Factors Influencing Crime Fears." Presented at the Concordia College Celebration of Student Scholarship: Spotlight Session. Moorhead, MN. 
+\item \textbf{Larson, Ryan}, Christopher Uggen, Robert Stewart, Veronica Horowitz. ``The Racialized Packaging of Punishment: An Instrumental Variables Approach to Monetary Sanctions and Confinement." Accepted for presentation at the 2020 American Sociological Association Annual Meeting, San Francisco, cancelled due to COVID-19. 
+
+\item \textbf{Larson, Ryan}, Chris Uggen, Sarah Shannon, and Aaron Sojourner. ``Former Felons and the Decline in U.S. Labor Force Participation, 1980-2010." Accepted for presentation at the 2020 Population Association of America Annual Meeting, Washington D.C, cancelled due to COVID-19. 
+
+\item Spencer-Suarez, Kimberly, Robert Stewart, Veronica L. Horowitz, Emmi Obara, Frank Edwards, \textbf{Ryan Larson}, and Christopher Uggen. ``Dual Debtors: Navigating Child Support Arrears and Criminal Justice Debt." Society for Social Work and Research Annual Meetings, Washington, D.C.. January.
+
+\item[\textbf{2019}] \textbf{Larson, Ryan}, Robert Stewart, Veronica Horowitz, and Christopher Uggen. ``The Socio-Cultural Effects of Race and Indigeneity on Monetary Sanctions in Minnesota." Invited panel at the 2019 American Society of Criminology Annual Meeting, San Francisco, CA.
+
+\item[\textbf{2018}] \textbf{Larson, Ryan}, Chris Uggen, Sarah Shannon, and Aaron Sojourner. ``Former Felons and the Decline in U.S. Labor Force Participation, 1980-2010." Presented at the 2018 American Society of Criminology Annual Meeting, Atlanta, GA. 
+\item Horowitz, Veronica, \textbf{Ryan P. Larson}, Allison Nobles, Victoria Piehowski, and Josh Page. ``No Contact: The Origins and Trajectory of Domestic Abuse Law in Minnesota." Presented at the 2018 Midwestern Sociological Society Annual Meeting, Minneapolis, MN. 
+
+\item \textbf{Larson Ryan P.} and Doug Hartmann. ``Is Colorblindness Aspirational? Findings from a National Survey." Presented at the Midwestern Sociological Society Annual Meeting, Minneapolis, MN. 
+
+\item Hamilton, Amber, Doug Hartmann, and \textbf{Ryan P. Larson}. ``An Analysis of Racial Variation in Colorblind Racism." Presented at the Midwestern Sociological Society Annual Meeting, Minneapolis, MN. 
+
+\item[\textbf{2017}] Hartmann, Doug and \textbf{Ryan P. Larson}. ``What is it about Sport? Rethinking Data and Measurement in the Analysis of Participation Effects."  Presented at the North American Society for the Sociology of Sport Annual Conference, Windsor, Ontario, CA. 
+
+\item \textbf{Larson, Ryan} and Andrew Lindner. ``The Mortality of Citizen Journalism Sites: An Event History Analysis." Presented at the American Sociological Association Annual Meeting, Montreal, QC, CA.
+
+\item[\textbf{2016}] \textbf{Larson, Ryan} and Chris Uggen. ``A Competing Risk Analysis of Immigrant Detention and Case Outcomes." Presented at the American Society of Criminology Annual Meeting, New Orleans, LA. 
+
+\item \textbf{Larson, Ryan}. ``Mapping Youth Activities in the Twin-Cities Metro Area." Presented at the 2016 University of Minnesota Sociology Research Institute, Minneapolis, MN. 
+
+\item \textbf{Larson, Ryan}, Jacqui Frost, and Stephen Wulff. ``The Good, The Bad, and The Ugly: Syllabus Composition." Presented at the 2016 University of Minnesota Sociology Research Institute, Minneapolis, MN. 
+
+\item Hartmann, Doug, \textbf{Ryan Larson}, Paul Croll, Alex Manning,  and Joseph Gerteis. ``Colorblindness as Identity:  Key Determinants, Relations to Ideology, and Implications for Attitudes about Race and Policy". Presented at the Midwestern Sociological Society Annual Meeting, Chicago, IL. 
+
+\item Meier, Ann, Ben Hartmann, and \textbf{Ryan Larson}. ``25 Years of Youth Activity Participation: Inequalities by Race, Class, and Gender?". Presented at the Midwestern Sociological Society Annual Meeting, Chicago, IL. 
+
+\item[\textbf{2015}] Hawkins, Daniel, Andrew M. Lindner, and \textbf{Ryan Larson}. ``Overrating Bruins, Underrating Lobos: Media, Prestige, and College Basketball." Presented at The Sixth International Conference on Sport and Society, Toronto, Canada.
+
+\item[\textbf{2014}] \textbf{Larson, Ryan}. ``Fear and Loathing in Minnesota: A Multilevel Analysis of Factors Influencing Crime Fears." Presented at the Midwestern Sociological Society Annual Meeting, Omaha, NE.
+
+\item Lindner, Andrew, \textbf{Ryan Larson}, and John Stelter. ``The Rise and Fall of Citizen Journalism." Presented at the Midwestern Sociological Society Annual Meeting, Omaha, NE. 
+
+\item \textbf{Larson, Ryan}. ``Fear and Loathing in Minnesota: A Multilevel Analysis of Factors Influencing Crime Fears." Presented at the Concordia College Celebration of Student Scholarship: Spotlight Session. Moorhead, MN. 
 
 
-\end{itemize}
+\end{publist}
 
 
 \section*{\textbf{Teaching and Mentorship}}
@@ -427,7 +458,7 @@ Dual Debt in the Child Support and Criminal Legal Systems". Presented at the Ame
 \subsection*{Courses Designed and Taught}
 
 
-\begin{itemize} 
+\begin{publist} 
 
 %\item Communities, Crime, and Spatial Analysis (CJFS 3890), Hamline University
 \item Punishment, Corrections, and Society (CJFS 3770), Hamline University
@@ -437,59 +468,61 @@ Dual Debt in the Child Support and Criminal Legal Systems". Presented at the Ame
 \item Basic Social Statistics (SOC 3811), University of Minnesota
 \item Sociology of Neighborhoods (SOC 3081), University of Minnesota
 
-\end{itemize}
+\end{publist}
 
 
 \subsection*{Mentorship}
-        \begin{itemize}
 
-\item 2023-2024: Hamline University Honors Program Faculty Mentor: Molly Hauf
-\item 2023: Independent Study - Quantitative Social Science: Madeline Tengel 
-\item 2023: Hamline University SCUR Program Faculty Mentor: Molly Hauf
-\item 2020-2021: Statistics Mentor, UMN
-\item 2013-2014 (Fall-Spring): Tutor, Research Methods and Statistics, Professor Nick Ellig, Concordia College
-         \end{itemize}
+\begin{publist}
+
+\item[\textbf{2023-2024}] Hamline University Honors Program Faculty Mentor: Molly Hauf
+\item[\textbf{2023}] Independent Study - Quantitative Social Science: Madeline Tengel 
+\item Hamline University SCUR Program Faculty Mentor: Molly Hauf
+\item[\textbf{2020-2021}] Statistics Mentor, UMN Sociology Department
+\item[\textbf{2013-2014}]: Tutor, Research Methods and Statistics, Professor Nick Ellig, Concordia College
+
+\end{publist}
 
 \section*{\textbf{Media}}
 
 \subsection*{Media Interviews}
-\begin{itemize}
+\begin{publist}
 
-\item 2023: Star Tribune \href{https://www.startribune.com/after-three-most-violent-years-minneapolis-saw-drop-in-crime-summer-but-were-not-back-to-normal-yet/600301635/}{``After three violent years, crime is dropping in Minneapolis"}. Andy Mannix and Jeff Hargarten.  
+\item[\textbf{2023}] Star Tribune \href{https://www.startribune.com/after-three-most-violent-years-minneapolis-saw-drop-in-crime-summer-but-were-not-back-to-normal-yet/600301635/}{``After three violent years, crime is dropping in Minneapolis"}. Andy Mannix and Jeff Hargarten.  
 
-\end{itemize}
+\end{publist}
 
 \section*{\textbf{Service}}
 
 \subsection*{Department}
-\begin{itemize}
+\begin{publist}
 
-\item 2023: Search Committee Member for Criminology and Criminal Justice AP
-\item 2022: Search Committee Member for Criminology and Criminal Justice AP
-\item 2017: UMN Graduate Mentorship Program Co-Coordinator
+\item[\textbf{2023}] Search Committee Member for Criminology and Criminal Justice AP
+\item[\textbf{2022}] Search Committee Member for Criminology and Criminal Justice AP
+\item[\textbf{2017}] UMN Graduate Mentorship Program Co-Coordinator
 
-\end{itemize}
+\end{publist}
 
 \subsection*{University}
-\begin{itemize}
-\item 2024: Hamline Honors Faculty Council Member
-\item 2023-2026: Co-Director - Summer Collaborative Undergraduate Research Program (SCUR)
-\item 2023: Hamline SCUR Program Selection Committee
-\item 2023: Social Justice and Social Change Department AP Search Meetings
-\item 2023: National Conference of Undergraduate Research (NCUR) Chaperone
-\item 2022-: University and Strategic Planning Committee (USPC) H@mline Data Sub-Committee
-\item 2022: Hamline University Campus Climate Survey (DISC) Data Analysis Consultation
-\item 2022: NCUR Conference Project Selection Committee
-\end{itemize}
+\begin{publist}
+\item[\textbf{2024}] Hamline Honors Faculty Council Member
+\item[\textbf{2023-2026}] Co-Director - Summer Collaborative Undergraduate Research Program (SCUR)
+\item[\textbf{2023}] Hamline SCUR Program Selection Committee
+\item Social Justice and Social Change Department AP Search Meetings
+\item National Conference of Undergraduate Research (NCUR) Chaperone
+\item[\textbf{2022-2024}]University and Strategic Planning Committee (USPC) H@mline Data Sub-Committee
+\item[\textbf{2022}] Hamline University Campus Climate Survey (DISC) Data Analysis Consultation
+\item NCUR Conference Project Selection Committee
+\end{publist}
 
 \subsection*{Community}
 
-\begin{itemize}
+\begin{publist}
 
-\item 2024: Quantitative Analyst and Consultant on \textit{Pretrial Best Practices Preliminary Report: Building a Transparent Pretrial Data System}, a report to the Minnesota legislature by the \textit{Minnesota Justice Research Center}.
-\item 2024-: Statistical Consultant, \href{https://www.theviolenceproject.org/}{The Violence Project}
-\item 2023: Retore the Vote MN Data Visualizations for HF28 Legislative Report
-\item 2022-: Research Consultant, \href{https://www.mnjrc.org/about-us}{Minnesota Justice Research Center}
+\item[\textbf{2024}] Quantitative Analyst and Consultant on \textit{Pretrial Best Practices Preliminary Report: Building a Transparent Pretrial Data System}, a report to the Minnesota legislature by the \textit{Minnesota Justice Research Center}.
+\item[\textbf{2024-present}] Statistical Consultant, \href{https://www.theviolenceproject.org/}{The Violence Project}
+\item[\textbf{2023}] Retore the Vote MN Data Visualizations for HF28 Legislative Report
+\item[\textbf{2022-present}] Research Consultant, \href{https://www.mnjrc.org/about-us}{Minnesota Justice Research Center}
 
 \begin{itemize}
 
@@ -498,37 +531,37 @@ Dual Debt in the Child Support and Criminal Legal Systems". Presented at the Ame
 
 \end{itemize}
 
-\item 2020: Minnesota Felon Disenfranchisement Expert Report by Chris Uggen 
+\item[\textbf{2020}] Minnesota Felon Disenfranchisement Expert Report by Chris Uggen 
 
-\item 2013: Statistical Intern, \href{https://dps.mn.gov/divisions/ojp/statistical-analysis-center/Pages/default.aspx}{Minnesota Department of Public Safety: Office of Justice Programs}, St. Paul, Minnesota
+\item[\textbf{2013}] Statistical Intern, \href{https://dps.mn.gov/divisions/ojp/statistical-analysis-center/Pages/default.aspx}{Minnesota Department of Public Safety: Office of Justice Programs}, St. Paul, Minnesota
 \begin{itemize}
 	\item Survey design, data collection, and quantitative analyses published in Hurley Swayze, Dana, and  Buskovick, Dannette. 2014. \href{https://dps.mn.gov/divisions/ojp/forms-documents/Documents/SRO20REPORT.pdf}{``Law Enforcement in Minnesota schools: A Statewide Survey of School Resource Officers."} Minnesota Department of Public Safety: Office of Justice Programs.
 \end{itemize}
 
-\end{itemize}
+\end{publist}
 
 \subsection*{Professional Service}
 
-\begin{itemize}
+\begin{publist}
 
-\item 2024: Midwest Sociological Society Annual Meeting Session Presider - `Politics, Power, and Gendered Violence"
+\item[\textbf{2024}] Midwest Sociological Society Annual Meeting Session Presider - `Politics, Power, and Gendered Violence"
 
-\item 2023: Midwest Sociological Society Annual Meeting Session Presider - ``Policing Practices and Responses"
+\item[\textbf{2023}] Midwest Sociological Society Annual Meeting Session Presider - ``Policing Practices and Responses"
 
-\item 2019: ASA Crime, Law, and Deviance Section Social Media Student Spotlight, December
+\item[\textbf{2019}] ASA Crime, Law, and Deviance Section Social Media Student Spotlight, December
 
-\item  2014-2019:  Graduate Editorial Board, \href{http://thesocietypages.org/}{\textit{The Society Pages}}
+\item[\textbf{2014-2019}]  Graduate Editorial Board, \href{http://thesocietypages.org/}{\textit{The Society Pages}}
 \begin{itemize}
 \item Crime and Inequality Topic Page Curator
 \item Graphics and Data Visualization Production
 \item A catalogue of contributions can be found at \href{https://thesocietypages.org/people/ryanlarson/}{https://thesocietypages.org/people/ryanlarson/}.
 \end{itemize}
 
-\end{itemize}
+\end{publist}
 
 
 \section*{\textbf{Professional Memberships}}
-\begin{itemize}
+\begin{publist}
 
 \item American Sociological Association
 \begin{itemize}
@@ -539,7 +572,7 @@ Dual Debt in the Child Support and Criminal Legal Systems". Presented at the Ame
 \item American Society of Criminology
 \item Midwest Sociological Society
 
-\end{itemize}
+\end{publist}
 
 \section*{\textbf{Reviewer}}
 
