@@ -46,10 +46,6 @@ Injury in Minnesota.”](pubs/santaularia_etal_21.pdf) *Injury Epidemiology*, 8(
 
 ### Papers Under Review
 
-
-* Schwendeman, Hannah, Veronica L. Horowitz, Frank Edwards, Robert Stewart, Ryan Larson, and
-Christopher Uggen. “My Right Arm Should be ‘Debt’ and My Left Arm Should be ‘Felony’”: Dual Debt in the Child Support and Criminal Legal Systems.” Revise and resubmit at *Law and Society Review*.
-
 * Christopher Uggen, Carsyn Schneider, Ryan Larson, Robert Stewart. ``Democratic Expansion? Restoring the Vote to People on Probation and Parole in the United States, 1964-2023." Under review at *Criminology*.
 
 * Ryan Larson. ``The Causal Packaging Effects of Punishment." Under review at *Criminology*. 
@@ -57,7 +53,9 @@ Christopher Uggen. “My Right Arm Should be ‘Debt’ and My Left Arm Should b
 
 ### Technical Reports
 
-* Uggen, Christopher, Ryan Larson, Sarah Shannon, and Robert Stewart. 2022. ["Locked Out 2022: Estimates of People Denied Voting Rights Due to a Felony Conviction"]() Washington, D.C.: The Sentencing Project.
+* Uggen, Christopher, Ryan Larson, Sarah Shannon, Robert Stewart, and Molly Hauf. 2024. ["Locked Out 2024: Four Million Denied Voting Rights Due to a Felony Conviction"](https://www.sentencingproject.org/app/uploads/2024/10/Locked-Out-2024-Four-Million-Denied-Voting-Rights-Due-to-a-Felony-Conviction.pdf) Washington, D.C.: The Sentencing Project.
+
+* Uggen, Christopher, Ryan Larson, Sarah Shannon, and Robert Stewart. 2022. ["Locked Out 2022: Estimates of People Denied Voting Rights Due to a Felony Conviction"](https://www.sentencingproject.org/app/uploads/2024/03/Locked-Out-2022-Estimates-of-People-Denied-Voting.pdf) Washington, D.C.: The Sentencing Project.
 
 * Uggen, Christopher, Ryan Larson, Sarah Shannon, and Arleth Pulido-Nava. 2020. ["Locked Out 2020: Estimates of People Denied Voting Rights Due to a Felony Conviction"](https://www.sentencingproject.org/wp-content/uploads/2020/10/Locked-Out-2020.pdf) Washington, D.C.: The Sentencing Project.
 
