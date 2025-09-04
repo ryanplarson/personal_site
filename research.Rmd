@@ -2,6 +2,40 @@
 title: "Research"
 ---
 
+## NORC Felony Disenfranchisement Survey Experiment
+
+Alongisde collaborators Dr. Chris Uggen (University of Minnesota), Dr. Andrew Lindner (Skidmore College), and Iris Fuglie (Hamline University undergraduate), I fielded an original survey experiment through NORC's AmeriSpeak panel to investigate the correlates of attitudes about felony disenfranchisement among Americans. Specifically, we experimentally manipulated exposure to different messages surrounding felony disenfranchisement policy (race, partisan, democracy) and are examining the treatment effects on punitive policy support and how these may be moderated by other punitive and race-based attitudes. 
+
+<center>
+![](images/norc.png)
+
+## The Patterns, Causes, and Consequences of Cash Bail in Minnesota
+
+Alongside Dr. Josh Page and the Minnesota Justice Research Center, we are engaging in research that will help answer the question: “What are the social patterns of cash bail and pretrial justice in Minnesota, and what are the downstream consequences of these criminal legal practices?”
+
+We propose to:
+AIM 1. Descriptively examine the landscape of pretrial justice and cash bail in Minnesota. 
+AIM 2. Examine the social and spatial causes and consequences of cash bail in Minnesota.
+AIM 3. Examine the causal effect of cash bail on downstream criminal legal and socioeconomic outcomes. 
+
+Methodologically, this project involves 1) descriptive analysis of the social and spatial patterns of cash bail and pretrial justice, 2) panel models investigating the social causes and consequences of cash bail at the Tract-year level, and 3) judge severity IV design identifying the causal effects of cash bail at the individual-level on downstream criminal legal and social outcomes. 
+
+<center>
+![](images/pt.png)
+
+## Hennepin County Search Warrant Project (HCSWP)
+
+Our pilot phase of the Hennepin County Search Warrant Project (HCSWP?) has consisted of a quantitative content analysis of Hennepin County Minnesota search warrants from the first three quarters of 2019. Our focal research questions are the following:
+  - What is the “hit rate” (i.e., the probability of an anticipated, listed item being found in a search) of items in search warrants?
+  - How frequently are confidential informants used in the search warrant process?
+  - What impact do confidential informants have on the “hit rate” of items found?
+  - Does the impact of confidential informants on the “hit rate” vary by item or case characteristics? 
+
+With potential funding, we hope to expand our analytical sample to other Minnesota counties and other years to extend the external validity (i.e., generalizability) of our pilot study.  
+
+<center>
+![](images/hit.png)
+
 ## The Iatrogenic Effects of Punishment
 
 My dissertation examines the link between punishment and crime at three 
@@ -41,8 +75,7 @@ This empirical chapter investigates a state policy with the potential to mitigat
 ## Multistate Study of Monetary Sanctions
 
 Minnesota is one of eight states included in the [Multi-State Study of Monetary Sanctions](http://www.monetarysanctions.org/), 
-led by principal investigator [Alexes Harris](https://soc.washington.edu/people/alexes-harris) (University of Washington),
-investigating systems of monetary sanctions in the United States. Using
+led by principal investigator [Alexes Harris](https://soc.washington.edu/people/alexes-harris) (University of Washington), investigating systems of monetary sanctions in the United States. Using
 automated court data provided by the Minnesota State Court Administrator's 
 Office, alongside interviews and ethnographic observations,  I am collaboratively
 examining the role of race in the sentencing of LFOs, as well as the role of 
@@ -53,7 +86,7 @@ LFO concentrations on neighborhood poverty and housing instability. I have been 
 ![](images/asr_draft.png){width=65%}
 </center>
 
-Moving forward, I am also collaborating with the Washington and Georgia teams to describe the relative LFO debt burden across communities, as well as the impact of LFOs on community disadvantage in both Minnesota and Washington. 
+Moving forward, I am also collaborating with the Washington and Georgia teams to describe the relative LFO debt burden across communities, as well as the impact of LFOs on community disadvantage in both Minnesota and Washington. Further, I and the Minnesota team are investigating new methods to empirically identify punishment "packages" in administrative court data, and examine the 
 
 <center>
 ![](images/db.png){width=50%}
@@ -61,7 +94,7 @@ Moving forward, I am also collaborating with the Washington and Georgia teams to
 
 ## Complex Relationships between Punishment, Policing, and Health
 
-As part of a interdisciplinary collaborative team (including Jeanie Santaularia, Christopher Robertson, and Christopher Uggen), I have been investigating the relationships between punishment, policing, and health, using novel quantitative data including hospital discharge records. The first paper, published in  *Violent Epidemiology*, examines the relationships between county-level criminal punishment and violence. A second paper examines the temporal and spatial patterns in gun assault hospital discharges before and after the police killing of George Floyd using an interrupted time-series design (forthcoming in *Spatial and Spatiotemporal Epidemiology*). We also have an analysis documenting the racially heterogeneous effects of the police murder of Mr. Floyd in Minneapolis (revise and resubmit at *American Journal of Epidemiology*), as well as some preliminary work examining the voting patterns surrounding Amendment 2 in Minneapolis. I am also currently collaborating with scholars in the School of Public Health at the University of Minnesota exploring the spatial concentrations of carjackings in Minneapolis, and which carjacking events local media is responsive to.
+As part of a interdisciplinary collaborative team (including Jeanie Santaularia, Christopher Robertson, and Christopher Uggen), I have been investigating the relationships between punishment, policing, and health, using novel quantitative data including hospital discharge records. The first paper, published in  *Violent Epidemiology*, examines the relationships between county-level criminal punishment and violence. A second paper examines the temporal and spatial patterns in gun assault hospital discharges before and after the police killing of George Floyd using an interrupted time-series design ( *Spatial and Spatiotemporal Epidemiology*). We also have an analysis documenting the racially heterogeneous effects of the police murder of Mr. Floyd in Minneapolis (*American Journal of Epidemiology*), as well as some preliminary work examining the voting patterns surrounding Amendment 2 in Minneapolis. 
 
 <center>
 ![](images/dv_map.png){width=80%}
@@ -130,8 +163,7 @@ I have been a research assistant and collaborator on the
 [American Mosaic Project](https://cla.umn.edu/sociology/graduate/collaboration-opportunities/american-mosaic-project-amp),  a survey of the social boundaries of American political and religious life. 
 Specifically, I have collaboratively published work on [racial colorblindness as
 an identity](https://journals.sagepub.com/doi/abs/10.1177/0731121417719694?ai=1gvoi&mi=3ricys&af=R), 
-and am currently working examining colorblind
-ideology and its impacts on race-specific policy.
+and am currently working on the BAM 3.0 investigating the social causes and consequences of punitive attitudes as well as attitudes Americans hold towards individuals with criminal records.
 
 <center>
 ![](images/figure_1_2018_revised.png){width=60%}

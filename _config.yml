@@ -1,1 +1,16 @@
-theme: jekyll-theme-cayman
+theme: minima
+
+# Navigation
+header_pages:
+  - index.md
+  - projects.md
+  - blog.md
+  - about.md
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
