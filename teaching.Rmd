@@ -1,5 +1,13 @@
 ---
 title: "Teaching"
+output:
+  html_document:
+    theme: cosmo     # sleek Bootstrap theme
+    highlight: tango # syntax highlighting
+    toc: true
+    toc_float: true
+    number_sections: false
+    df_print: paged
 ---
 
 Professor Larson invites students not only to the “social facts” within criminology, but also the process and logic of social science that provides the scientific foundation for this knowledge. Dr. Larson has a passion for quantitative and statistical methods and works to convey these tools in an understandable and intuitive way. Through his teaching and collaborative research with students, he hopes students gain both substantive knowledge and methodological tools to help make sense of the social world, and their place within it, in order to become more responsibly engaged in society. Professor Larson teaches Theories of Criminal Behavior, Punishment, Corrections, & Society, Communities & Crime, Basic Quantitative Criminology & Statistics, and Research Methods and Data Analysis. He also directs Hamline’s Summer Collaborative Undergraduate Research program (SCUR), and leads the summer research seminar.

@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -29,9 +29,12 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 
@@ -44,16 +47,6 @@
   ul.task-list{list-style: none;}
     </style>
 
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
 
 
 
@@ -221,6 +214,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -228,6 +284,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -299,11 +365,15 @@ $(document).ready(function () {
 </div>
 
 
+<div id="about-me" class="section level1">
+<h1>About Me</h1>
 <p>I am an Assistant Professor of Criminology in the Department of
 Criminal Justice and Forensic Science at Hamline University. I received
-my PhD in Sociology from the University of Minnesota in 2022. As a
-sociological criminologist, my research program is driven by an interest
-in how punishment in the U.S. is tied to both crime, social
+my PhD in Sociology from the University of Minnesota in 2022.</p>
+<div id="research-agenda" class="section level2">
+<h2>Research Agenda</h2>
+<p>As a sociological criminologist, my research program is driven by an
+interest in how punishment in the U.S. is tied to both crime, social
 institutions, and social life more broadly. Building on the growing
 research on the causes and consequences of punishment, my scholarship
 explores previously neglected dimensions of crime etiology in relation
@@ -317,6 +387,9 @@ aspects of social life, using unique causal identification strategies.
 To read more about my research projects and dissertation <a
 href="research.html">click here</a>. To download my Curriculum Vitae <a
 href="cv.html">click here</a>.</p>
+</div>
+<div id="teaching" class="section level2">
+<h2>Teaching</h2>
 <p>In my teaching, I strive to teach students not just the “social
 facts” within criminology, but also the process and logic of social
 science that provides the scientific foundation for this knowledge. I
@@ -328,6 +401,9 @@ their place within it, in order to become more responsibly engaged in
 society. At Hamline University I have taught criminological theory and
 research methods, as well as an introductory quantitative methods and
 statistics courses for criminology majors.</p>
+</div>
+<div id="undergraduate-studies" class="section level2">
+<h2>Undergraduate Studies</h2>
 <p>Prior to graduate school, I received my BA in Sociology and
 Psychology, <em>Summa cum Laude</em>, from <a
 href="https://www.concordiacollege.edu/">Concordia College</a> in 2014,
@@ -335,9 +411,13 @@ and was the winner of the 2014 Farden Memorial Prize in Sociology.</p>
 <center>
 <img src="images/ry.png" style="width:65.0%" />
 </center>
+</div>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -370,6 +450,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

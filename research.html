@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -29,9 +29,12 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 
@@ -44,16 +47,6 @@
   ul.task-list{list-style: none;}
     </style>
 
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
 
 
 
@@ -221,6 +214,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -228,6 +284,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -300,8 +366,8 @@ $(document).ready(function () {
 
 
 <div id="norc-felony-disenfranchisement-survey-experiment"
-class="section level2">
-<h2>NORC Felony Disenfranchisement Survey Experiment</h2>
+class="section level1">
+<h1>NORC Felony Disenfranchisement Survey Experiment</h1>
 <p>Alongisde collaborators Dr. Chris Uggen (University of Minnesota),
 Dr. Andrew Lindner (Skidmore College), and Iris Fuglie (Hamline
 University undergraduate), I fielded an original survey experiment
@@ -315,9 +381,9 @@ may be moderated by other punitive and race-based attitudes.</p>
 <p><img src="images/norc.png" /></p>
 </div>
 <div id="the-patterns-causes-and-consequences-of-cash-bail-in-minnesota"
-class="section level2">
-<h2>The Patterns, Causes, and Consequences of Cash Bail in
-Minnesota</h2>
+class="section level1">
+<h1>The Patterns, Causes, and Consequences of Cash Bail in
+Minnesota</h1>
 <p>Alongside Dr. Josh Page and the Minnesota Justice Research Center, we
 are engaging in research that will help answer the question: “What are
 the social patterns of cash bail and pretrial justice in Minnesota, and
@@ -338,8 +404,8 @@ downstream criminal legal and social outcomes.</p>
 <p><img src="images/pt.png" /></p>
 </div>
 <div id="hennepin-county-search-warrant-project-hcswp"
-class="section level2">
-<h2>Hennepin County Search Warrant Project (HCSWP)</h2>
+class="section level1">
+<h1>Hennepin County Search Warrant Project (HCSWP)</h1>
 <p>Our pilot phase of the Hennepin County Search Warrant Project
 (HCSWP?) has consisted of a quantitative content analysis of Hennepin
 County Minnesota search warrants from the first three quarters of 2019.
@@ -356,8 +422,8 @@ other Minnesota counties and other years to extend the external validity
 <center>
 <p><img src="images/hit.png" /></p>
 </div>
-<div id="the-iatrogenic-effects-of-punishment" class="section level2">
-<h2>The Iatrogenic Effects of Punishment</h2>
+<div id="the-iatrogenic-effects-of-punishment" class="section level1">
+<h1>The Iatrogenic Effects of Punishment</h1>
 <p>My dissertation examines the link between punishment and crime at
 three different levels of analysis, specifically investigating how
 punishment can exacerbate crime and criminogenic contexts, both directly
@@ -367,7 +433,9 @@ punishment’s varied forms, intensities, and contexts are implicated in
 the (re)production of class and racial inequalities, the structuring of
 American neighborhoods and contexts, and the corrosion of general social
 health; all of which are implicated the genesis of crime.</p>
-<p><em>The Causal Packaging Effects of Punishment</em></p>
+<div id="the-causal-packaging-effects-of-punishment"
+class="section level2">
+<h2><em>The Causal Packaging Effects of Punishment</em></h2>
 <p>The United States has experienced a marked rise across multiple forms
 of punishment, such as incarceration, probation, and monetary sanctions
 during the era of mass incarceration. However, studies examining the
@@ -389,7 +457,10 @@ financial costs.</p>
 <center>
 <img src="images/diss1.png" style="width:70.0%" />
 </center>
-<p><em>Punishment, Concentrated Disadvantage, and Crime</em></p>
+</div>
+<div id="punishment-concentrated-disadvantage-and-crime"
+class="section level2">
+<h2><em>Punishment, Concentrated Disadvantage, and Crime</em></h2>
 <p>A long tradition of sociological and criminological research has
 documented the ecological effects of neighborhoods on crime rates.
 Theories and research on neighborhood ecology highlight the causal
@@ -415,7 +486,9 @@ disadvantage.</p>
 <center>
 <img src="images/diss2.png" style="width:70.0%" />
 </center>
-<p><em>Ban-the-Box, Employment, and Crime</em></p>
+</div>
+<div id="ban-the-box-employment-and-crime" class="section level2">
+<h2><em>Ban-the-Box, Employment, and Crime</em></h2>
 <p>This empirical chapter investigates a state policy with the potential
 to mitigate some of the iatrogenic effects of punishment on crime via
 employment: ban-the-box (BTB) legislation. While previous research has
@@ -435,8 +508,9 @@ state-level crime.</p>
 <img src="images/diss3.png" style="width:70.0%" />
 </center>
 </div>
-<div id="multistate-study-of-monetary-sanctions" class="section level2">
-<h2>Multistate Study of Monetary Sanctions</h2>
+</div>
+<div id="multistate-study-of-monetary-sanctions" class="section level1">
+<h1>Multistate Study of Monetary Sanctions</h1>
 <p>Minnesota is one of eight states included in the <a
 href="http://www.monetarysanctions.org/">Multi-State Study of Monetary
 Sanctions</a>, led by principal investigator <a
@@ -466,8 +540,8 @@ in administrative court data, and examine the</p>
 <center>
 </div>
 <div id="complex-relationships-between-punishment-policing-and-health"
-class="section level2">
-<h2>Complex Relationships between Punishment, Policing, and Health</h2>
+class="section level1">
+<h1>Complex Relationships between Punishment, Policing, and Health</h1>
 <p>As part of a interdisciplinary collaborative team (including Jeanie
 Santaularia, Christopher Robertson, and Christopher Uggen), I have been
 investigating the relationships between punishment, policing, and
@@ -492,7 +566,9 @@ in Minneapolis.</p>
 <center>
 <img src="images/mpls_mh.png" style="width:80.0%" />
 </center>
-<p><em>Structural Racism, Police Shootings, and Health</em></p>
+<div id="structural-racism-police-shootings-and-health"
+class="section level2">
+<h2><em>Structural Racism, Police Shootings, and Health</em></h2>
 <p>I have submitted a grant application as a MPI, alongside Dr. Jeanie
 Santaularia a collaborator of mine who is an epidemiologist at the
 University of Washington. We have applied for a $250,000 grant from the
@@ -527,8 +603,9 @@ violence. Our theoretical model is as follows:</p>
 <img src="images/loi.png" style="width:70.0%" />
 </center>
 </div>
-<div id="dual-debtors-project" class="section level2">
-<h2>Dual Debtors Project</h2>
+</div>
+<div id="dual-debtors-project" class="section level1">
+<h1>Dual Debtors Project</h1>
 <p>The Dual Debtors Project is mixed-method collaborative research that
 examines the nexus of criminal justice debt and child support debt. I am
 a Co-Investigator on a grant from the <em>Linda and John Arnold
@@ -540,8 +617,8 @@ whether these institutional forms of debt interact to pattern crime.</p>
 <img src="images/dual_debt.png" style="width:100.0%" />
 </center>
 </div>
-<div id="felony-disenfranchisement-estimates" class="section level2">
-<h2>Felony Disenfranchisement Estimates</h2>
+<div id="felony-disenfranchisement-estimates" class="section level1">
+<h1>Felony Disenfranchisement Estimates</h1>
 <p>Collaboratively with Chris Uggen, Sarah Shannon, and Robert Stewart,
 we have compiled estimates of the population disenfranchised due to a
 felony record. We estimated that 6.1 million were legally
@@ -570,8 +647,8 @@ Million Lost Voters: State-Level Estimates of Felony Disenfranchisement,
 <img src="images/fd_2020.png" style="width:80.0%" />
 </center>
 </div>
-<div id="american-mosaic-project" class="section level2">
-<h2>American Mosaic Project</h2>
+<div id="american-mosaic-project" class="section level1">
+<h1>American Mosaic Project</h1>
 <p>I have been a research assistant and collaborator on the <a
 href="https://cla.umn.edu/sociology/graduate/collaboration-opportunities/american-mosaic-project-amp">American
 Mosaic Project</a>, a survey of the social boundaries of American
@@ -589,6 +666,8 @@ criminal records.</p>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -621,6 +700,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
