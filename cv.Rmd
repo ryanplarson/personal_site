@@ -1,5 +1,13 @@
 ---
 title: "CV"
+output:
+  html_document:
+    theme: cosmo     # sleek Bootstrap theme
+    highlight: tango # syntax highlighting
+    toc: true
+    toc_float: true
+    number_sections: false
+    df_print: paged
 ---
 
 [Download Larson CV](CV/larson_CV.pdf)
