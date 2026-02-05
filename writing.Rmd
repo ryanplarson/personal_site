@@ -12,9 +12,15 @@ output:
 
 ### Peer-Reviewed Articles
 
-* N. Jeanie Santaularia, Ryan Larson, Christopher E. Robertson, Christopher Uggen. 2025. [“Mental Health Before and After George Floyd’s Murder in Minneapolis in Black, Latine, and White Communities.”](pubs/santaularia_etal_24_final.pdf) Forthcoming at *American Journal of Epidemiology*.
+* Maryam Tanveer, Ryan Larson, N. Jeanie Santaularia, Christopher Robertson, and Christopher Uggen. “Temporal Exposure to Police-Involved Shootings and the Incidence of Mental Health Conditions in Minneapolis, Minnesota.” Forthcoming at *Journal of Urban Health*.
 
-* Schwendeman, Hannah, Veronica L. Horowitz, Frank Edwards, Robert Stewart, Ryan Larson, and Christopher Uggen. 2024. ["'It's Two Separate Systems That..Keep You Under a Thumb': Dual Debt in the Child Support and Criminal Legal Systems."](pubs/schwendeman_etal_24.pdf). *Law and Society Review* 1-26. 
+* Ryan P. Larson, Jillian Peterson, James Densley, Jaycee Manchi, N. Jeanie Santaularia, Christopher Uggen,
+and Christopher E. Robertson. ”The Changing Nature of Homicide in the Twin Cities Before, During, and
+After the Pandemic and the Murder of George Floyd.” Forthcoming at *Journal of Quantitative Criminology*.
+
+* N. Jeanie Santaularia, Ryan Larson, Christopher E. Robertson, Christopher Uggen. 2025. [“Mental Health Before and After George Floyd’s Murder in Minneapolis in Black, Latine, and White Communities.”](pubs/santaularia_etal_24_final.pdf) *American Journal of Epidemiology* 194(7): 1900-1908.
+
+* Schwendeman, Hannah, Veronica L. Horowitz, Frank Edwards, Robert Stewart, Ryan Larson, and Christopher Uggen. 2024. ["'It's Two Separate Systems That..Keep You Under a Thumb': Dual Debt in the Child Support and Criminal Legal Systems"](pubs/schwendeman_etal_24.pdf). *Law and Society Review* 1-26. 
 
 * Allison Lind, Ryan P. Larson, Susan M. Mason, Christopher Uggen. 2024. [“Carjacking and Homicide in Minneapolis After the Police Killing of George Floyd: Evidence from an Interrupted Time Series Analysis”](pubs/lind_etal_24.pdf)  *Social Science & Medicine* 358: 1-19. 
 
@@ -58,13 +64,7 @@ Injury in Minnesota.”](pubs/santaularia_etal_21.pdf) *Injury Epidemiology*, 8(
 
 * Ryan Larson. ``The Causal Packaging Effects of Punishment." Revise and resubmit at *Journal of Quantitative Criminology*. 
 
-* Ryan P. Larson, Jillian Peterson, James Densley, Jaycee Manchi, N. Jeanie Santaularia, Christopher Uggen,
-and Christopher E. Robertson. ”The Changing Nature of Homicide in the Twin Cities Before, During, and
-After the Pandemic and the Murder of George Floyd.” Under Review at *Journal of Quantitative Criminology*.
-
-Maryam Tanveer, Ryan Larson, N. Jeanie Santaularia, Christopher Robertson, and Christopher Uggen. “Temporal Exposure to Police-Involved Shootings and the Incidence of Mental Health Conditions in Minneapolis, Minnesota.” Under review at *Journal of Urban Health*.
-
-Ryan P. Larson, Robert Stewart, Veronica Horowitz, and Christopher Uggen. “The Racialized Packaging of
+* Ryan P. Larson, Robert Stewart, Veronica Horowitz, and Christopher Uggen. “The Racialized Packaging of
 Punishment: An Instrumental Variables Approach to Confinement, Surveillance, and Financial Extraction.”
 Under review at *Criminology*.
 
