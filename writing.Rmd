@@ -12,6 +12,8 @@ output:
 
 ### Peer-Reviewed Articles
 
+* Ryan P. Larson, Robert Stewart, Veronica Horowitz, and Christopher Uggen. “The Racialized Packaging of Punishment: An Instrumental Variables Approach to Incarceration, Probation, and Monetary Sanctions.” Forthcoming at *Criminology*.
+
 * Maryam Tanveer, Ryan Larson, N. Jeanie Santaularia, Christopher Robertson, and Christopher Uggen. “Temporal Exposure to Police-Involved Shootings and the Incidence of Mental Health Conditions in Minneapolis, Minnesota.” Forthcoming at *Journal of Urban Health*.
 
 * Ryan P. Larson, Jillian Peterson, James Densley, Jaycee Manchi, N. Jeanie Santaularia, Christopher Uggen,
@@ -64,9 +66,6 @@ Injury in Minnesota.”](pubs/santaularia_etal_21.pdf) *Injury Epidemiology*, 8(
 
 * Ryan Larson. ``The Causal Packaging Effects of Punishment." Revise and resubmit at *Journal of Quantitative Criminology*. 
 
-* Ryan P. Larson, Robert Stewart, Veronica Horowitz, and Christopher Uggen. “The Racialized Packaging of
-Punishment: An Instrumental Variables Approach to Confinement, Surveillance, and Financial Extraction.”
-Under review at *Criminology*.
 
 ### Technical Reports
 
