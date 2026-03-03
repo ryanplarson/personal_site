@@ -13,12 +13,16 @@ output:
 Professor Larson invites students not only to the “social facts” within criminology, but also the process and logic of social science that provides the scientific foundation for this knowledge. Dr. Larson has a passion for quantitative and statistical methods and works to convey these tools in an understandable and intuitive way. Through his teaching and collaborative research with students, he hopes students gain both substantive knowledge and methodological tools to help make sense of the social world, and their place within it, in order to become more responsibly engaged in society. Professor Larson teaches Theories of Criminal Behavior, Punishment, Corrections, & Society, Communities & Crime, Basic Quantitative Criminology & Statistics, and Research Methods and Data Analysis. He also directs Hamline’s Summer Collaborative Undergraduate Research program (SCUR), and leads the summer research seminar.
 
 ## Hamline University 
-### Department of Criminal Justice \& Forensic Science
+### Criminology & Criminal Justice Program
+
+* *This is the Zodiac Speaking...*: The Zodiac Killer and the Social Science of True Crime
+  + Fall 2026
 
 * CJFS 3735 Communities & Crime
   + Fall 2025 ([syllabus](syllabi/CJFS_3735_F25.pdf))
 
 * CJFS 3770 Punishment, Corrections, and Society
+  + Fall 2026
   + Fall 2024 ([syllabus](syllabi/CJFS_3770_F24.pdf))
   + Fall 2023 ([syllabus](syllabi/CJFS_3770_F23.pdf))
 
@@ -26,6 +30,7 @@ Professor Larson invites students not only to the “social facts” within crim
   + Spring 2023 ([syllabus](syllabi/CJFS_1980_S23.pdf))
 
 * CJFS 3750 Theories of Criminal Behavior
+  + Fall 2026
   + Spring 2025 ([syllabus](syllabi/CJFS_3750_S25.pdf))
   + Spring 2024 ([syllabus](syllabi/CJFS_3750_S24.pdf))
   + Fall 2024 ([syllabus](syllabi/CJFS_3750_F24.pdf))

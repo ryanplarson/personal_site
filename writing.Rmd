@@ -17,8 +17,8 @@ output:
 * Maryam Tanveer, Ryan Larson, N. Jeanie Santaularia, Christopher Robertson, and Christopher Uggen. “Temporal Exposure to Police-Involved Shootings and the Incidence of Mental Health Conditions in Minneapolis, Minnesota.” Forthcoming at *Journal of Urban Health*.
 
 * Ryan P. Larson, Jillian Peterson, James Densley, Jaycee Manchi, N. Jeanie Santaularia, Christopher Uggen,
-and Christopher E. Robertson. ”The Changing Nature of Homicide in the Twin Cities Before, During, and
-After the Pandemic and the Murder of George Floyd.” Forthcoming at *Journal of Quantitative Criminology*.
+and Christopher E. Robertson. [”The Changing Nature of Homicide in the Twin Cities Before, During, and
+After the Pandemic and the Murder of George Floyd.”](pubs/larson_etal_26_jqc) *Journal of Quantitative Criminology*. Published Online 2 Mar 2026.
 
 * N. Jeanie Santaularia, Ryan Larson, Christopher E. Robertson, Christopher Uggen. 2025. [“Mental Health Before and After George Floyd’s Murder in Minneapolis in Black, Latine, and White Communities.”](pubs/santaularia_etal_24_final.pdf) *American Journal of Epidemiology* 194(7): 1900-1908.
 
