@@ -14,7 +14,7 @@ output:
 
 * Ryan P. Larson, Robert Stewart, Veronica Horowitz, and Christopher Uggen. [“The Racialized Packaging of Punishment: An Instrumental Variables Approach to Incarceration, Probation, and Monetary Sanctions.”](pubs/larson_etal_26_crim.pdf) *Criminology*. Published online 11 Apr 2026.
 
-* Maryam Tanveer, Ryan Larson, N. Jeanie Santaularia, Christopher Robertson, and Christopher Uggen. “Temporal Exposure to Police-Involved Shootings and the Incidence of Mental Health Conditions in Minneapolis, Minnesota.” Forthcoming at *Journal of Urban Health*.
+* Maryam Tanveer, Ryan Larson, N. Jeanie Santaularia, Christopher Robertson, and Christopher Uggen. [“Temporal Exposure to Police-Involved Shootings and the Incidence of Mental Health Conditions in Minneapolis, Minnesota.”](pubs/tanveer_etal_26.pdf) *Journal of Urban Health*. Published online 14 May 2026.
 
 * Ryan P. Larson, Jillian Peterson, James Densley, Jaycee Manchi, N. Jeanie Santaularia, Christopher Uggen,
 and Christopher E. Robertson. [”The Changing Nature of Homicide in the Twin Cities Before, During, and
